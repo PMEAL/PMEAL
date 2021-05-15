@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## PMEAL
 
 <ul>
   {% for post in site.posts %}
