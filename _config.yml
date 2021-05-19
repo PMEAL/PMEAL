@@ -7,7 +7,7 @@ url: "https://pmeal.github.io" # the base hostname & protocol for your site, e.g
 
 # Build settings
 markdown: kramdown
-remote_theme:  andrewbanchich/editorial-jekyll-theme
+remote_theme: editorial-jekyll-theme
 plugins:
   - jekyll-feed
 
