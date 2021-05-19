@@ -1,4 +1,7 @@
-
+---
+title: Publications
+layout: page
+---
 
 ## 2021
 
