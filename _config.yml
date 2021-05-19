@@ -6,14 +6,14 @@ url: "https://pmeal.github.io" # the base hostname & protocol for your site, e.g
 
 
 # Build settings
-markdown: kramdown
-remote_theme: editorial-jekyll-theme
+# markdown: kramdown
+remote_theme: PMEAL/editorial-jekyll-theme
 plugins:
   - jekyll-feed
 
 # destination:  _site/
 # plugins_dir:  editorial-jekyll-theme/_sass/
-layouts_dir:  editorial-jekyll-theme/_layouts/
-includes_dir: editorial-jekyll-theme/_includes/
-exclude:
-  - editorial-jekyll-theme/
+# layouts_dir:  editorial-jekyll-theme/_layouts/
+# includes_dir: editorial-jekyll-theme/_includes/
+# exclude:
+#  - editorial-jekyll-theme/

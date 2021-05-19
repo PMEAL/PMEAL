@@ -1,3 +1,0 @@
----
-cover-photo: banner.jpg
----
