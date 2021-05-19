@@ -1,20 +1,19 @@
 title: PMEAL
 email: jgostick@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Porous Materials Engineering and Analysis Lab
+description: Porous Materials Engineering and Analysis Lab
 baseurl: "PMEAL" # the subpath of your site, e.g. /blog
 url: "https://pmeal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
 markdown: kramdown
-remote_theme: editorial-jekyll-theme
+remote_theme:  andrewbanchich/editorial-jekyll-theme
 plugins:
   - jekyll-feed
 
-destination:  _site/
-plugins_dir:  editorial-jekyll-theme/_sass/
-layouts_dir:  editorial-jekyll-theme/_layouts/
-includes_dir: editorial-jekyll-theme/_includes/
-exclude:
-  - editorial-jekyll-theme/
+# destination:  _site/
+# plugins_dir:  editorial-jekyll-theme/_sass/
+# layouts_dir:  editorial-jekyll-theme/_layouts/
+# includes_dir: editorial-jekyll-theme/_includes/
+# exclude:
+#   - editorial-jekyll-theme/
