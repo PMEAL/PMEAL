@@ -13,7 +13,7 @@ plugins:
 
 # destination:  _site/
 # plugins_dir:  editorial-jekyll-theme/_sass/
-# layouts_dir:  editorial-jekyll-theme/_layouts/
-# includes_dir: editorial-jekyll-theme/_includes/
-# exclude:
-#   - editorial-jekyll-theme/
+layouts_dir:  editorial-jekyll-theme/_layouts/
+includes_dir: editorial-jekyll-theme/_includes/
+exclude:
+  - editorial-jekyll-theme/
