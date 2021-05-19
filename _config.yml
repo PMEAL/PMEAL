@@ -24,7 +24,7 @@ collections: [sections]
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-prologue
 plugins:
   - jekyll-feed
 
