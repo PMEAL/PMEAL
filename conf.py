@@ -6,7 +6,7 @@ extensions = [
     "ablog",
     "sphinx.ext.intersphinx",
     "sphinx_panels",
-#     "myst_parser",
+    # "myst_parser",
     "myst_nb",
 ]
 
@@ -14,7 +14,7 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
-
+html_logo = '_static/banner.png'
 html_static_path = ['_static']
 
 blog_path = "blog"
