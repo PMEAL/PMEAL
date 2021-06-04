@@ -1,7 +1,7 @@
 
 
-News
-----
+News and Announcements
+----------------------
 
 .. postlist:: 10
    :author: errbufferoverfl

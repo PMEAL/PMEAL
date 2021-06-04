@@ -1,0 +1,5 @@
+sphinx
+ablog
+myst-nb
+sphinx-panels
+pydata-sphinx-theme
