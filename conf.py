@@ -1,4 +1,4 @@
-project = 'PMEAL'
+project = 'PMEAL Homepage'
 copyright = '2021, PMEAL Team'
 author = 'PMEAL Team'
 
@@ -36,3 +36,5 @@ html_sidebars = {
            #"recentposts.html",
     ]
 }
+
+jupyter_execute_notebooks = "off"
