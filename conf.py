@@ -1,4 +1,4 @@
-project = 'PMEAL'
+project = 'PMEAL Homepage'
 copyright = '2021, PMEAL Team'
 author = 'PMEAL Team'
 
@@ -6,7 +6,6 @@ extensions = [
     "ablog",
     "sphinx.ext.intersphinx",
     "sphinx_panels",
-    # "myst_parser",
     "myst_nb",
 ]
 
@@ -28,11 +27,12 @@ html_theme_options = {
 }
 
 blog_path = "blog"
+blog_title = "PMEAL Homepage"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
 html_sidebars = {
     "**": [
-            "sidebar-nav-bs.html",
-           #"recentposts.html",
+        "sidebar-nav-bs.html",
+        # "recentposts.html",
     ]
 }

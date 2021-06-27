@@ -1,6 +1,6 @@
 # Publications
 
-<a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="http://www.pmeal.ca/wp-content/uploads/2020/05/240px-Google_Scholar_logo.svg_.png" alt="" width="40" height="40" />Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
+<a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="http://www.pmeal.ca/wp-content/uploads/2020/05/240px-Google_Scholar_logo.svg_.png" alt="" width="40" height="40" /> Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
 
 <hr>
 
