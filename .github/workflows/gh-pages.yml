@@ -1,4 +1,4 @@
-name: Deploy Documentation
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -21,16 +21,17 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install dependencies
-        run: |
+        run:
           pip install -r requirements.txt
 
       # Build the documentation
       - name: Build the documentation
-        run: |
-          make html
+        run:
+          ablog clean && ablog build
+
       # Push the documentation's HTML to github-pages
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: ./_website
