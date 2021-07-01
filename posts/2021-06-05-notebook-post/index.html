@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>News and Announcements &#8212; PMEAL Homepage  documentation</title>
+    <title>Overview of Image-Based Invasion Percolation &#8212; PMEAL Homepage  documentation</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -41,9 +41,7 @@
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <link rel="index" title="Index" href="../../genindex/" />
-    <link rel="search" title="Search" href="../../search/" />
-    <link rel="next" title="&lt;no title&gt;" href="../../pages/" />
-    <link rel="prev" title="PMEAL Homepage" href="../../" /> 
+    <link rel="search" title="Search" href="../../search/" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
       
@@ -102,8 +100,8 @@
       
       <div class="navbar-center-item">
         <ul id="navbar-main-elements" class="navbar-nav">
-    <li class="toctree-l1 current active nav-item">
- <a class="current reference internal nav-link" href="#">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../news/">
   News and Announcements
  </a>
 </li>
@@ -192,23 +190,78 @@
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
-                 <section id="news-and-announcements">
-<h1>News and Announcements<a class="headerlink" href="#news-and-announcements" title="Permalink to this headline">¶</a></h1>
-<ul class="postlist-style-none postlist">
-<li><p>2021-06-05 - <a class="reference internal" href="../2021-06-05-notebook-post/">Overview of Image-Based Invasion Percolation</a></p>
+                 <section id="overview-of-image-based-invasion-percolation">
+<h1>Overview of Image-Based Invasion Percolation<a class="headerlink" href="#overview-of-image-based-invasion-percolation" title="Permalink to this headline">¶</a></h1>
 <p>The PMEAL team, in collaboration with researchers from Queen Mary University in London, have written a new algorithm for simulating fluid invasion into tomograms.  This image-based approach is complementary to the widely used “morphological image openning” or “full morphology” approaches.  The existing approaches are equivalent to increasing the applied pressure and tracking the invaded volume, while our new approach is equivalent to increasing the invaded volume and monitoring the pressure.</p>
-</li>
-<li><p>2020-10-10 - <a class="reference internal" href="../test/">another test22</a></p>
-<p>needs a title?</p>
-</li>
-<li><p>2020-10-10 - <a class="reference internal" href="../test2/">another test</a></p>
-<p>needs a title?</p>
-</li>
-</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">porespy</span> <span class="k">as</span> <span class="nn">ps</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">im</span> <span class="o">=</span> <span class="n">ps</span><span class="o">.</span><span class="n">generators</span><span class="o">.</span><span class="n">blobs</span><span class="p">([</span><span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span> <span class="n">blobiness</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">porosity</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">im</span><span class="p">,</span> <span class="n">interpolation</span><span class="o">=</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="kc">False</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/2021-06-05-notebook-post_1_0.png" src="../../_images/2021-06-05-notebook-post_1_0.png" />
+</div>
+</div>
+<p>To perform the invasion we first define a boundary, in the form of a binary image with <code class="docutils literal notranslate"><span class="pre">True</span></code> indicating the starting points.  Let’s use the left edge:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+<span class="n">bd</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now we can call the <code class="docutils literal notranslate"><span class="pre">ibip</span></code> function:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">inv_sat</span><span class="p">,</span> <span class="n">inv_size</span> <span class="o">=</span> <span class="n">ps</span><span class="o">.</span><span class="n">filters</span><span class="o">.</span><span class="n">ibip</span><span class="p">(</span><span class="n">im</span><span class="o">=</span><span class="n">im</span><span class="p">,</span> <span class="n">inlets</span><span class="o">=</span><span class="n">bd</span><span class="p">,</span> <span class="n">return_sizes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "a9324347a2154789b72fbbde3c66f187", "version_major": 2, "version_minor": 0}
+</script></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">20</span><span class="p">,</span> <span class="mi">20</span><span class="p">])</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">inv_sat</span><span class="o">/</span><span class="n">im</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">inv_size</span><span class="o">/</span><span class="n">im</span><span class="p">)</span>
+<span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="kc">False</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/2021-06-05-notebook-post_6_0.png" src="../../_images/2021-06-05-notebook-post_6_0.png" />
+</div>
+</div>
+<p>The colormap of the left image corresponds to saturation, so applying a threshold at 0.5 will return the fluid configuraiton corresponding to an invading fluid saturation of 0.5.  The color on the right corresponds to the size of the meniscus being inserted at each step.</p>
 </section>
 
 <div class="section">
-   
+     
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../test/">
+      <i class="fa fa-arrow-circle-left"></i> another test22
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
 </div>
 
               </div>
