@@ -9,25 +9,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>75</td>
-<td>Jung S, Sabharwal M, Jarauta A, Wei F, Gostick J, Gingras M, Secanell M. Estimation of Relative Transport Properties in Porous Transport Layers Using Pore-Scale and Pore-Network Simulations. Journal of The Electrochemical Society.
-Links:
-</td>
-</tr>
-
-
-<tr>
-<td>74</td>
-<td>Pourali M, Esfahani IA, Sadeghi MA, Kim KC, Gostick JT. Simulation of methane steam reforming in a catalytic micro-reactor using a combined analytical approach and response surface methodology. International Journal of Hydrogen Energy.
-Links: <a href="https://doi.org/10.1016/j.ijhydene.2021.04.124" target="_blank" rel="noopener noreferrer">Publisher Site</a>
-</td>
-</tr>
-
-<tr>
-<td>73</td>
-<td>Amini K, Sadeghi MA, Pritzker MD and Gostick JT*, Porous Electrodes for Redox Flow Batteries. Encylcopedia of Energy Storage.</td>
-</tr>
+Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society.
 
 </tbody>
 </table>
@@ -38,11 +20,27 @@ Links: <a href="https://doi.org/10.1016/j.ijhydene.2021.04.124" target="_blank" 
 
 <table width="100%">
 <tbody>
+  
+<tr>
+<td>74</td>
+<td>Jung S, Sabharwal M, Jarauta A, Wei F, Gostick J, Gingras M, Secanell M. Estimation of Relative Transport Properties in Porous Transport Layers Using Pore-Scale and Pore-Network Simulations. Journal of The Electrochemical Society. 168(6), 064501 (2021)
+Links:
+</td>
+</tr>
+
+<tr>
+<td>73</td>
+<td>Pourali M, Esfahani IA, Sadeghi MA, Kim KC, Gostick JT. Simulation of methane steam reforming in a catalytic micro-reactor using a combined analytical approach and response surface methodology. International Journal of Hydrogen Energy. 46(44), 22763-22776 (2021)
+Links: <a href="https://doi.org/10.1016/j.ijhydene.2021.04.124" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+</td>
+</tr>
+
 <tr>
 <td>72</td>
 <td>Kim YW, Asset T, Wei F, Atanassov P, Secanell M, Barralet JE, and Gostick JT*. Fabrication of PGM-free Catalyst Layer with Enhanced Mass Transport Characteristics via Electrospraying Technique. Materials Today Energy. 20(June), 100641 (2021)
 Links: <a href="https://doi.org/10.1016/j.mtener.2021.100641" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/8riz6y6clg6smu8/072%20-%20Kim%20-%20Electrosprayed%20non-PGM%20CLs.pdf?dl=1" target="_blank" rel="noopener noreferrer">Author Postprint</a></td>
 </tr>
+
 <tr>
 <td>71</td>
 <td>Yadav S, Kok MDR, Forner-Cuenca A, Tenny KM, Chiang YM, Brushett FR, Jervis R, Shearing PR, Brett D, Roberts EPL, Gostick JT*. Fabrication of high surface area ribbon electrodes for use in redox flow batteries via coaxial electrospinning. Journal of Energy Storage. 33(1), 102079 (2021)
@@ -484,16 +482,31 @@ Links: <a href="https://doi.org/10.1021/ie020881d" target="_blank" rel="noopener
 <tbody>
 
 <tr>
-<td>2</td>
-<td>
-
-</td>
+<td>5</td>
+<td>Secannel M, Garcia-Salaberri PA, Gostick JT.  Porous Electrodes for PEM Fuel Cells and Electrolyzers, in Encyclopedia of Energy Storage. M. Guarnieri, Editor. 2021. Elsevier: Amsterdam.</td>
 </tr>
+  
+  
+<tr>
+<td>4</td>
+<td>Amini K, Sadeghi MA, Pritzker MD and Gostick JT*, Porous Electrodes for Redox Flow Batteries. Encylcopedia of Energy Storage.</td>
+</tr>
+  
+
+<tr>
+<td>3</td>
+<td>Gostick JT.  Strain, Force, and Mass, in Experimental Methods and Instrumentation for Chemical Engineers. G. Patience, Editor. 2016. Elsevier: Amsterdam.</td>
+</tr>
+  
+<tr>
+<td>2</td>
+<td>Gostick JT, Ioannidis MA, Pritzker MD, and Fowler MW. Porosimetry and Characterization of the Capillary Properties of Gas Diffusion Media, in Handbook of PEM Fuel Cell Durability, H. Wang, X.-Z. Yuan, and H. Li, Editors. 2011, Taylor Francis: Baton Rouge.</td>
+</tr>
+  
 <tr>
 <td>1</td>
-<td>
-
-</td>
+<td>Gostick JT, Ioannidis MA, Pritzker MD, Fowler MW. Characterization of the Capillary Properties of Gas Diffusion Media, in Modern Aspects of Electrochemistry, C.Y. Wang and U. Pasaogullari, Editors. 2010, Springer: Berlin.</td>
 </tr>
+
 </tbody>
 </table>
