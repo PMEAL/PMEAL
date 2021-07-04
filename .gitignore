@@ -4,3 +4,4 @@ _website
 _build
 jupyter_execute
 posts/.ipynb_checkpoints
+.ipynb_checkpoints
