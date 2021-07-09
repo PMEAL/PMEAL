@@ -1,4 +1,4 @@
-.. _research::
+.. _pages::
 
 .. toctree::
    :hidden:
