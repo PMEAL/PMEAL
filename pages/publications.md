@@ -1,6 +1,6 @@
 # Publications
 
-<a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="http://www.pmeal.ca/wp-content/uploads/2020/05/240px-Google_Scholar_logo.svg_.png" alt="" width="40" height="40" /> Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
+<a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="../_static/images/scholar_logo.png" alt="" width="30" height="30" /> Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
 
 <hr>
 
@@ -9,7 +9,11 @@
 <table width="100%">
 <tbody>
 
-Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society.
+<tr>
+<td>75</td>
+<td>Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society.
+</td>
+</tr>
 
 </tbody>
 </table>
@@ -20,7 +24,7 @@ Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling o
 
 <table width="100%">
 <tbody>
-  
+
 <tr>
 <td>74</td>
 <td>Jung S, Sabharwal M, Jarauta A, Wei F, Gostick J, Gingras M, Secanell M. Estimation of Relative Transport Properties in Porous Transport Layers Using Pore-Scale and Pore-Network Simulations. Journal of The Electrochemical Society. 168(6), 064501 (2021)
@@ -485,24 +489,24 @@ Links: <a href="https://doi.org/10.1021/ie020881d" target="_blank" rel="noopener
 <td>5</td>
 <td>Secannel M, Garcia-Salaberri PA, Gostick JT.  Porous Electrodes for PEM Fuel Cells and Electrolyzers, in Encyclopedia of Energy Storage. M. Guarnieri, Editor. 2021. Elsevier: Amsterdam.</td>
 </tr>
-  
-  
+
+
 <tr>
 <td>4</td>
 <td>Amini K, Sadeghi MA, Pritzker MD and Gostick JT*, Porous Electrodes for Redox Flow Batteries. Encylcopedia of Energy Storage.</td>
 </tr>
-  
+
 
 <tr>
 <td>3</td>
 <td>Gostick JT.  Strain, Force, and Mass, in Experimental Methods and Instrumentation for Chemical Engineers. G. Patience, Editor. 2016. Elsevier: Amsterdam.</td>
 </tr>
-  
+
 <tr>
 <td>2</td>
 <td>Gostick JT, Ioannidis MA, Pritzker MD, and Fowler MW. Porosimetry and Characterization of the Capillary Properties of Gas Diffusion Media, in Handbook of PEM Fuel Cell Durability, H. Wang, X.-Z. Yuan, and H. Li, Editors. 2011, Taylor Francis: Baton Rouge.</td>
 </tr>
-  
+
 <tr>
 <td>1</td>
 <td>Gostick JT, Ioannidis MA, Pritzker MD, Fowler MW. Characterization of the Capillary Properties of Gas Diffusion Media, in Modern Aspects of Electrochemistry, C.Y. Wang and U. Pasaogullari, Editors. 2010, Springer: Berlin.</td>
