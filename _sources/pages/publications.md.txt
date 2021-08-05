@@ -9,11 +9,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>75</td>
-<td>Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society.
-</td>
-</tr>
+
 
 </tbody>
 </table>
@@ -24,11 +20,18 @@
 
 <table width="100%">
 <tbody>
+  
+<tr>
+<td>75</td>
+<td>Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society. 
+Links: <a href="https://doi.org/10.1149/1945-7111/ac120c" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/obp271z1l9viomm/075%20-%20Khan_2021_J._Electrochem._Soc._168_070534.pdf?dl=1" target="_blank" rel="noopener noreferrer">Open Access PDF</a>
+</td>
+</tr>
 
 <tr>
 <td>74</td>
 <td>Jung S, Sabharwal M, Jarauta A, Wei F, Gostick J, Gingras M, Secanell M. Estimation of Relative Transport Properties in Porous Transport Layers Using Pore-Scale and Pore-Network Simulations. Journal of The Electrochemical Society. 168(6), 064501 (2021)
-Links:
+Links: <a href="https://doi.org/10.1149/1945-7111/ac03f2" target="_blank" rel="noopener noreferrer">Publisher Site</a>
 </td>
 </tr>
 
