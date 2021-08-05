@@ -23,7 +23,8 @@
   
 <tr>
 <td>75</td>
-<td>Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society. 
+<td>Khan ZA, Agnaou M, Sadeghi MA, Elkamel A, Gostick JT*.  Pore network modelling of galvanostatic discharge behaviour of lithium-ion battery cathodes.  Journal of the Electrochemical Society. 168(7), 070534 (2021)
+  
 Links: <a href="https://doi.org/10.1149/1945-7111/ac120c" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/obp271z1l9viomm/075%20-%20Khan_2021_J._Electrochem._Soc._168_070534.pdf?dl=1" target="_blank" rel="noopener noreferrer">Open Access PDF</a>
 </td>
 </tr>
@@ -38,6 +39,7 @@ Links: <a href="https://doi.org/10.1149/1945-7111/ac03f2" target="_blank" rel="n
 <tr>
 <td>73</td>
 <td>Pourali M, Esfahani IA, Sadeghi MA, Kim KC, Gostick JT. Simulation of methane steam reforming in a catalytic micro-reactor using a combined analytical approach and response surface methodology. International Journal of Hydrogen Energy. 46(44), 22763-22776 (2021)
+  
 Links: <a href="https://doi.org/10.1016/j.ijhydene.2021.04.124" target="_blank" rel="noopener noreferrer">Publisher Site</a>
 </td>
 </tr>
