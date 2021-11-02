@@ -22,7 +22,7 @@ Direct numerical simulation on 3D voxel-based images is becoming increasingly co
 
 ![](../_static/images/electrospun.png)
 
-Electrospinning is an old technique that is seeing new life in the past decade due to its ability to make a very wide range of interesting fibrous materials. PMEAL has been utilizing this technique to produce optimized electrodes for flow batteries. Compared to commercially available materials, the target material has smaller fibers for increased surface area and high porosity to enhance the permeability. This image shows commercial materials with 10 um diameter fibers, compared to our electrospun materials with 1 um diameter fibers. The much smaller fiber size has shown to be highly advantageous for in-situ flow battery performance, as outlined in our <a href="http://www.pmeal.com/publications/" target="_blank" rel="noopener noreferrer">recent publication</a>.
+Electrospinning is an old technique that is seeing new life in the past decade due to its ability to make a very wide range of interesting fibrous materials. PMEAL has been utilizing this technique to produce optimized electrodes for flow batteries. Compared to commercially available materials, the target material has smaller fibers for increased surface area and high porosity to enhance the permeability. This image shows commercial materials with 10 um diameter fibers, compared to our electrospun materials with 1 um diameter fibers. The much smaller fiber size has shown to be highly advantageous for in-situ flow battery performance, as outlined in our <a href="</pages/publications>" target="_blank" rel="noopener noreferrer">recent publication</a>.
 
 <hr>
 
