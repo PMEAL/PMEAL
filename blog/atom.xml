@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://www.pmeal.com</id>
+  <title>PMEAL Homepage</title>
+  <updated>2021-11-03T03:17:29.010751+00:00</updated>
+  <link href="https://www.pmeal.com"/>
+  <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://www.pmeal.com/posts/2021-06-05-notebook-post/</id>
+    <title>Overview of Image-Based Invasion Percolation</title>
+    <updated>2021-06-05T00:00:00+00:00</updated>
+    <content type="html">&lt;p&gt;The PMEAL team, in collaboration with researchers from Queen Mary University in London, have written a new algorithm for simulating fluid invasion into tomograms.  This image-based approach is complementary to the widely used “morphological image openning” or “full morphology” approaches.  The existing approaches are equivalent to increasing the applied pressure and tracking the invaded volume, while our new approach is equivalent to increasing the invaded volume and monitoring the pressure.&lt;/p&gt;
+</content>
+    <link href="https://www.pmeal.com/posts/2021-06-05-notebook-post/" rel="alternate"/>
+    <summary>The PMEAL team, in collaboration with researchers from Queen Mary University in London, have written a new algorithm for simulating fluid invasion into tomograms.  This image-based approach is complementary to the widely used “morphological image openning” or “full morphology” approaches.  The existing approaches are equivalent to increasing the applied pressure and tracking the invaded volume, while our new approach is equivalent to increasing the invaded volume and monitoring the pressure.</summary>
+    <category term="porespy" label="porespy"/>
+    <published>2021-06-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.pmeal.com/posts/july042021/</id>
+    <title>PMEAL Blog and Website now hosted on Github Pages</title>
+    <updated>2021-07-04T00:00:00+00:00</updated>
+    <author>
+      <name>Jeff Gostick</name>
+    </author>
+    <content type="html">&lt;p&gt;We used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress.  A few months we updated the PoreSpy website/landing page to be the same as the documentation site and moved it to Github instead of “Read The Docs”.  Having all the code and docs in the same place was very handy, so we did the same thing to the OpenPNM website.  Now that we are only hosting one website on the Wordpress instance, it makes sense to move PMEAL over to Github as well.  The new site is not quite as fancy looking due limitations of the static build of Github Pages, but seems to looking pretty good so far.  Over the next few weeks we’ll be improving things.&lt;/p&gt;
+</content>
+    <link href="https://www.pmeal.com/posts/july042021/" rel="alternate"/>
+    <summary>We used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress.  A few months we updated the PoreSpy website/landing page to be the same as the documentation site and moved it to Github instead of “Read The Docs”.  Having all the code and docs in the same place was very handy, so we did the same thing to the OpenPNM website.  Now that we are only hosting one website on the Wordpress instance, it makes sense to move PMEAL over to Github as well.  The new site is not quite as fancy looking due limitations of the static build of Github Pages, but seems to looking pretty good so far.  Over the next few weeks we’ll be improving things.</summary>
+    <published>2021-07-04T00:00:00+00:00</published>
+  </entry>
+</feed>
