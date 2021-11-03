@@ -38,4 +38,4 @@ html_sidebars = {
     ]
 }
 
-jupyter_execute_notebooks = "off"
+jupyter_execute_notebooks = "on"
