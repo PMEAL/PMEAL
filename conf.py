@@ -27,6 +27,7 @@ html_theme_options = {
 }
 
 blog_path = "blog"
+blog_baseurl = "https://www.pmeal.com"
 blog_title = "PMEAL Homepage"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
