@@ -10,10 +10,23 @@
 <tbody>
 
 <tr>
+None at the moment
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+
+## 2022
+
+<table width="100%">
+<tbody>
+
+<tr>
 <td>76</td>
-<td>Gostick JT*, Misaghian N, Yang J, Boek ES.  Simulating volume-controlled invasion of a non-wetting fluid in volumetric images using basic image processing tools.  Computers and the Geosciences. 
-  
-Links: Publisher Site | <a href="https://www.dropbox.com/s/dj3zv0i7rwz088z/076%20-%20Gostick%20-%20CAGEO%20-%20IBIP.pdf?dl=0" target="_blank" rel="noopener noreferrer">Author Postprint</a>
+<td>Gostick JT*, Misaghian N, Yang J, Boek ES.  Simulating volume-controlled invasion of a non-wetting fluid in volumetric images using basic image processing tools.  Computers and the Geosciences. 158(1), 104978 (2022)
+  <a href="https://doi.org/10.1016/j.cageo.2021.104978" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/dj3zv0i7rwz088z/076%20-%20Gostick%20-%20CAGEO%20-%20IBIP.pdf?dl=0" target="_blank" rel="noopener noreferrer">Author Postprint</a>
 </td>
 </tr>
 
