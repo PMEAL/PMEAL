@@ -1,4 +1,5 @@
 sphinx
+pygments>=2.4.1
 ablog
 myst-nb
 sphinx-panels
