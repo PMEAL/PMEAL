@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2021-11-24T19:00:31.572564+00:00</updated>
+  <updated>2021-12-07T19:17:59.929185+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.21">ABlog</generator>
   <entry>
     <id>https://www.pmeal.com/posts/2021-06-05-notebook-post/</id>
     <title>Overview of Image-Based Invasion Percolation</title>
