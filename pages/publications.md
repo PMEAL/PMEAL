@@ -24,7 +24,7 @@ None at the moment
 <tbody>
 
 <tr>
-<td>76</td>
+<td>77</td>
 <td>Gostick JT*, Misaghian N, Yang J, Boek ES.  Simulating volume-controlled invasion of a non-wetting fluid in volumetric images using basic image processing tools.  Computers and the Geosciences. 158(1), 104978 (2022)
 
 Links: <a href="https://doi.org/10.1016/j.cageo.2021.104978" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/dj3zv0i7rwz088z/076%20-%20Gostick%20-%20CAGEO%20-%20IBIP.pdf?dl=0" target="_blank" rel="noopener noreferrer">Author Postprint</a>
@@ -40,6 +40,14 @@ Links: <a href="https://doi.org/10.1016/j.cageo.2021.104978" target="_blank" rel
 
 <table width="100%">
 <tbody>
+
+<tr>
+<td>76</td>
+<td>Sánchez-Ramos A, Gostick JT, García-Salaberri PA. Modeling the Effect of Low Pt loading Cathode Catalyst Layer in Polymer Electrolyte Fuel Cells. Part I: Model Formulation and Validation. Journal of the Electrochemical Society. 168(12), 124514 (2021)
+  
+Links: <a href="https://doi.org/10.1149/1945-7111/ac4456" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+</td>
+</tr>
   
 <tr>
 <td>75</td>
