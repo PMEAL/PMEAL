@@ -10,10 +10,19 @@
 <tbody>
 
 <tr>
+<tr>
+<td>79</td>
+<td>
+Kabernick D*, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering.
 
+Links: 
+</td>
+</tr> 
+   
 <tr>
 <td>78</td>
-<td>Chadwick EA, Hammen LH, Schulz PV, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
+<td>
+Chadwick EA, Hammen LH, Schulz PV, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
 
 Links: 
 </td>
