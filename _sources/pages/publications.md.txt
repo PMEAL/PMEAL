@@ -10,6 +10,15 @@
 <tbody>
 
 <tr>
+
+<tr>
+<td>78</td>
+<td>Chadwick EA, Hammen LH, Schulz PV, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
+
+Links: 
+</td>
+</tr>  
+  
 <tr>
 <td>77</td>
 <td>Sánchez-Ramos A, Gostick JT, García-Salaberri PA. Modeling the Effect of Low Pt loading Cathode Catalyst Layer in Polymer Electrolyte Fuel Cells. Part I: Model Formulation and Validation. Journal of the Electrochemical Society.
