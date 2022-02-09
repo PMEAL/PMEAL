@@ -11,12 +11,23 @@
 
 <tr>
 <tr>
-<td>77</td>
-<td>Sánchez-Ramos A, Gostick JT, García-Salaberri PA. Modeling the Effect of Low Pt loading Cathode Catalyst Layer in Polymer Electrolyte Fuel Cells. Part I: Model Formulation and Validation. Journal of the Electrochemical Society.
+<td>79</td>
+<td>
+Kabernick D*, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering.
+
+Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+</td>
+</tr> 
+   
+<tr>
+<td>78</td>
+<td>
+Chadwick EA, Hammen LH, Schulz PV, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
 
 Links: 
 </td>
-</tr>
+</tr>  
+   
 </tr>
 
 </tbody>
