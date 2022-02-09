@@ -230,7 +230,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/2022-01-15-notebook-post_4_0.png" src="../../_images/2022-01-15-notebook-post_4_0.png" />
+<img alt="../../_images/2022-02-09-notebook-post_4_0.png" src="../../_images/2022-02-09-notebook-post_4_0.png" />
 </div>
 </div>
 <p>First we’ll compute a reference capillary pressure curve with no gravity effects using the new <code class="docutils literal notranslate"><span class="pre">drainage</span></code> function. This function requires us to supply an image of capillary pressure values associated with each voxel.  Typicall one would use the Washburn equation:</p>
@@ -267,7 +267,7 @@
 {"model_id": "", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
-</script><img alt="../../_images/2022-01-15-notebook-post_8_2.png" src="../../_images/2022-01-15-notebook-post_8_2.png" />
+</script><img alt="../../_images/2022-02-09-notebook-post_8_2.png" src="../../_images/2022-02-09-notebook-post_8_2.png" />
 </div>
 </div>
 <p>The above image is colored according to the capillary pressure at which a given voxel was invaded. Note that we have applied a base-10 logarithm to the values to improve visibility.  The format is handy since it contains the entire invasion sequence in a single image.  Next let’s produce a capillary pressure curve.  There are some functions available in <code class="docutils literal notranslate"><span class="pre">porespy.metrics</span></code> for this:</p>
@@ -280,7 +280,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/2022-01-15-notebook-post_10_0.png" src="../../_images/2022-01-15-notebook-post_10_0.png" />
+<img alt="../../_images/2022-02-09-notebook-post_10_0.png" src="../../_images/2022-02-09-notebook-post_10_0.png" />
 </div>
 </div>
 <p>Now let’s perform the same experiment but including the gravity effects:</p>
@@ -298,7 +298,7 @@
 {"model_id": "", "version_major": 2, "version_minor": 0}
 </script><script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
-</script><img alt="../../_images/2022-01-15-notebook-post_12_2.png" src="../../_images/2022-01-15-notebook-post_12_2.png" />
+</script><img alt="../../_images/2022-02-09-notebook-post_12_2.png" src="../../_images/2022-02-09-notebook-post_12_2.png" />
 </div>
 </div>
 <p>We can see from the colormap that the invasion pattern is different.  Plotting the capillary pressure curve will make the differences more obvious:</p>
@@ -311,7 +311,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/2022-01-15-notebook-post_14_0.png" src="../../_images/2022-01-15-notebook-post_14_0.png" />
+<img alt="../../_images/2022-02-09-notebook-post_14_0.png" src="../../_images/2022-02-09-notebook-post_14_0.png" />
 </div>
 </div>
 <p>Combining both plots together for a better comparison:</p>
@@ -325,14 +325,29 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/2022-01-15-notebook-post_16_0.png" src="../../_images/2022-01-15-notebook-post_16_0.png" />
+<img alt="../../_images/2022-02-09-notebook-post_16_0.png" src="../../_images/2022-02-09-notebook-post_16_0.png" />
 </div>
 </div>
 <p>The red curve above is shifted to the right with a lower slope.  This is the expected result since the impact of gravity makes it more difficult for the heavy non-wetting fluid to rise up the domain and penetrate into pores. The decresed slope is also expected since pores are invaded more gradually rather than in a larger percolation event.</p>
 </section>
 
 <div class="section">
-   
+    
+
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../dec142012/">
+      <i class="fa fa-arrow-circle-left"></i> Prof Gostick presents new image-based invasion algorithm at AGU21
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
 </div>
 
               </div>

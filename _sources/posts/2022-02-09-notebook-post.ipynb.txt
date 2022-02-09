@@ -4,7 +4,12 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Adding Gravity to Image Based Drainage Simulations"
+    "# Adding Gravity to Image Based Drainage Simulations\n",
+    "\n",
+    "```{post} 2022-02-09\n",
+    ":tags: porespy\n",
+    ":redirect: porespy-drainage-w-gravity-intro\n",
+    "```\n"
    ]
   },
   {
