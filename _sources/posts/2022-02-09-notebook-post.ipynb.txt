@@ -16,7 +16,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called *morphological image opening* or *full morphology*. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called ``drainage`` located in the ``porespy.filters`` module.  The new ``drainage`` function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations."
+    "The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called *morphological image opening* or *full morphology*. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called ``drainage`` located in the also newly added ``porespy.simulations`` module.  The new ``drainage`` function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations."
    ]
   },
   {
@@ -155,7 +155,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "The above image is colored according to the capillary pressure at which a given voxel was invaded. Note that we have applied a base-10 logarithm to the values to improve visibility.  The format is handy since it contains the entire invasion sequence in a single image.  Next let's produce a capillary pressure curve.  There are some functions available in ``porespy.metrics`` for this:"
+    "The above image is colored according to the capillary pressure at which a given voxel was invaded. Note that we have applied a base-10 logarithm to the values to improve visibility.  This format is handy since it contains the entire invasion sequence in a single image.  Next let's plot the capillary pressure curve.  There are some functions available in ``porespy.metrics`` for this, but the ``drainage`` function actually does it for us and attaches the result to the returned object:"
    ]
   },
   {

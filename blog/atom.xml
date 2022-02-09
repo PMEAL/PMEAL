@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2022-02-09T20:32:56.590384+00:00</updated>
+  <updated>2022-02-09T21:37:12.104648+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
@@ -69,11 +69,11 @@
     <title>Adding Gravity to Image Based Drainage Simulations</title>
     <updated>2022-02-09T00:00:00+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called &lt;em&gt;morphological image opening&lt;/em&gt; or &lt;em&gt;full morphology&lt;/em&gt;. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;drainage&lt;/span&gt;&lt;/code&gt; located in the &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;porespy.filters&lt;/span&gt;&lt;/code&gt; module.  The new &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;drainage&lt;/span&gt;&lt;/code&gt; function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations.&lt;/p&gt;
+&lt;p&gt;The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called &lt;em&gt;morphological image opening&lt;/em&gt; or &lt;em&gt;full morphology&lt;/em&gt;. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;drainage&lt;/span&gt;&lt;/code&gt; located in the also newly added &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;porespy.simulations&lt;/span&gt;&lt;/code&gt; module.  The new &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;drainage&lt;/span&gt;&lt;/code&gt; function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations.&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="https://www.pmeal.com/posts/2022-02-09-notebook-post/" rel="alternate"/>
-    <summary>The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called morphological image opening or full morphology. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called drainage located in the porespy.filters module.  The new drainage function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations.</summary>
+    <summary>The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called morphological image opening or full morphology. The paper is available in Water Resources Research. This post will give a brief overview of how to use this new algorithm, which is being included in a new function called drainage located in the also newly added porespy.simulations module.  The new drainage function can produce results with or without gravity effects, creating a more powerful yet flexible function for performing such simulations.</summary>
     <category term="porespy" label="porespy"/>
     <published>2022-02-09T00:00:00+00:00</published>
   </entry>
