@@ -10,6 +10,16 @@
 <tbody>
 
 <tr>
+   
+<tr>
+<td>80</td>
+<td>
+Misaghian N, Agnaou M, Sadeghi MA, Fathiannasab H, Hadji I, Roberts EPL, Gostick JT*, Prediction of diffusional conductance in extracted pore network models using convolutional neural networks. Computers & Geosciences.
+
+Links: 
+</td>
+</tr> 
+   
 <tr>
 <td>79</td>
 <td>
@@ -22,7 +32,7 @@ Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener 
 <tr>
 <td>78</td>
 <td>
-Chadwick EA, Hammen LH, Schulz PV, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
+Chadwick EA, Hammen LH, Schulz VP, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
 
 Links: 
 </td>
