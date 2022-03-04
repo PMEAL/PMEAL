@@ -16,7 +16,8 @@
 <td>
 Misaghian N, Agnaou M, Sadeghi MA, Fathiannasab H, Hadji I, Roberts EPL, Gostick JT*, Prediction of diffusional conductance in extracted pore network models using convolutional neural networks. Computers & Geosciences.
 
-Links: <a href="https://doi.org/10.1016/j.cageo.2022.105086" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+Links: <a href="https://doi.org/10.1016/j.cageo.2022.105086" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/mcly2osxgr7lse2/080%20-%202022%20-%20Misaghian%20-%20CAGEO%20-%20AI%20diffusive%20conductance.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
+   
 </td>
 </tr> 
    
@@ -25,7 +26,8 @@ Links: <a href="https://doi.org/10.1016/j.cageo.2022.105086" target="_blank" rel
 <td>
 Kabernick D*, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering.
 
-Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/mcly2osxgr7lse2/080%20-%202022%20-%20Misaghian%20-%20CAGEO%20-%20AI%20diffusive%20conductance.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
+Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
 </td>
 </tr> 
    
