@@ -11,18 +11,9 @@
 
 <tr>
    
+  
 <tr>
 <td>80</td>
-<td>
-Misaghian N, Agnaou M, Sadeghi MA, Fathiannasab H, Hadji I, Roberts EPL, Gostick JT*, Prediction of diffusional conductance in extracted pore network models using convolutional neural networks. Computers & Geosciences.
-
-Links: <a href="https://doi.org/10.1016/j.cageo.2022.105086" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/mcly2osxgr7lse2/080%20-%202022%20-%20Misaghian%20-%20CAGEO%20-%20AI%20diffusive%20conductance.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
-   
-</td>
-</tr> 
-   
-<tr>
-<td>79</td>
 <td>
 Kabernick D*, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering.
 
@@ -32,7 +23,7 @@ Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener 
 </tr> 
    
 <tr>
-<td>78</td>
+<td>79</td>
 <td>
 Chadwick EA, Hammen LH, Schulz VP, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
 
@@ -51,6 +42,16 @@ Links:
 
 <table width="100%">
 <tbody>
+   
+<tr>
+<td>78</td>
+<td>
+Misaghian N, Agnaou M, Sadeghi MA, Fathiannasab H, Hadji I, Roberts EPL, Gostick JT*, Prediction of diffusional conductance in extracted pore network models using convolutional neural networks. Computers & Geosciences. 162(May), 105086 (2022)
+
+Links: <a href="https://doi.org/10.1016/j.cageo.2022.105086" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/mcly2osxgr7lse2/080%20-%202022%20-%20Misaghian%20-%20CAGEO%20-%20AI%20diffusive%20conductance.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
+   
+</td>
+</tr> 
 
 <tr>
 <td>77</td>
