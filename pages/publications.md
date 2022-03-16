@@ -22,18 +22,7 @@ Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener 
 </td>
 </tr> 
    
-<tr>
-<td>79</td>
-<td>
-Chadwick EA, Hammen LH, Schulz VP, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research.
-   
-Links: <a href="http://doi.org/10.1029/2021WR031509" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/h3vnihi5j3kmkmn/2022%20-%20WRR%20-%20drainage-with-gravity_no_changes.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
-   
-   
-
-</td>
-</tr>  
-   
+  
 </tr>
 
 </tbody>
@@ -45,6 +34,17 @@ Links: <a href="http://doi.org/10.1029/2021WR031509" target="_blank" rel="noopen
 
 <table width="100%">
 <tbody>
+   
+   
+<tr>
+<td>79</td>
+<td>
+Chadwick EA, Hammen LH, Schulz VP, Bazylak A, Ioannidis MA, Gostick JT*. Incorporating the effect of gravity into image-based drainage simulations on volumetric images of porous media. Water Resources Research. 58(3), e2021WR031509 (2022)
+   
+Links: <a href="http://doi.org/10.1029/2021WR031509" target="_blank" rel="noopener noreferrer">Publisher Site</a> | <a href="https://www.dropbox.com/s/h3vnihi5j3kmkmn/2022%20-%20WRR%20-%20drainage-with-gravity_no_changes.pdf?dl=1" target="_blank" rel="noopener noreferrer">Post Print</a>
+</td>
+</tr>  
+   
    
 <tr>
 <td>78</td>
