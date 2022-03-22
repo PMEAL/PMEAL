@@ -16,7 +16,7 @@
 <td>
 van der Heijden M, van Gorp R, Sadeghi MA, Gostick JT, and Forner-Cuenca A, Assessing the versatility and robustness of pore network modelling to simulate redox flow battery electrode performance. Journal of the Electrochemical Society.
 
-Links: 
+Links: <a href="https://doi.org/10.1149/1945-7111/ac5e46" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
    
 </td>
 </tr>    
