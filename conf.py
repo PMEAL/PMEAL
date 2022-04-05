@@ -20,7 +20,6 @@ html_css_files = [
 ]
 html_theme_options = {
     "github_url": "https://github.com/PMEAL",
-    "twitter_url": "https://twitter.com/profgostick",
     "show_prev_next": False,
     "collapse_navigation": False,
     "navbar_align": "left",
