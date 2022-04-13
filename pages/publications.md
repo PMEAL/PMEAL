@@ -12,6 +12,16 @@
 <tr>
    
 <tr>
+<td>82</td>
+<td> 
+McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Capacitive Storage of Ions Modelled in a Pore Network using Electrical Double Layer Theories: Helmholtz, Gouy-Chapman-Stern, and modified Donnan. Desalination.
+
+Links: 
+   
+</td>
+</tr>  
+
+<tr>
 <td>81</td>
 <td>
 van der Heijden M, van Gorp R, Sadeghi MA, Gostick JT, and Forner-Cuenca A, Assessing the versatility and robustness of pore network modelling to simulate redox flow battery electrode performance. Journal of the Electrochemical Society.
