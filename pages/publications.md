@@ -21,27 +21,6 @@ Links:
 </td>
 </tr>  
 
-<tr>
-<td>81</td>
-<td>
-van der Heijden M, van Gorp R, Sadeghi MA, Gostick JT, and Forner-Cuenca A, Assessing the versatility and robustness of pore network modelling to simulate redox flow battery electrode performance. Journal of the Electrochemical Society.
-
-Links: <a href="https://doi.org/10.1149/1945-7111/ac5e46" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
-   
-</td>
-</tr>    
-
-   
-<tr>
-<td>80</td>
-<td>
-Kabernick D, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering.
-
-Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
-   
-</td>
-</tr> 
-   
   
 </tr>
 
@@ -54,6 +33,26 @@ Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener 
 
 <table width="100%">
 <tbody>
+
+<tr>
+<td>81</td>
+<td>
+van der Heijden M, van Gorp R, Sadeghi MA, Gostick JT, and Forner-Cuenca A, Assessing the versatility and robustness of pore network modelling to simulate redox flow battery electrode performance. Journal of the Electrochemical Society. 169(4), 040505 (2022)  
+
+Links: <a href="https://doi.org/10.1149/1945-7111/ac5e46" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
+</td>
+</tr>    
+   
+<tr>
+<td>80</td>
+<td>
+Kabernick D, Gostick JT, Ward V, Kinetic characterization and modelling of sequentially entrapped enzymes in 3D-printed PMMA microfluidic reactors for the synthesis of amorphadiene via the isopentenol utilization pathway. Biotechnology & Bioengineering. 119(5), 1239-1251 (2022)
+
+Links: <a href="http://doi.org/10.1002/bit.28046" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
+</td>
+</tr> 
    
    
 <tr>
