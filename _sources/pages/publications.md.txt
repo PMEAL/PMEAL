@@ -10,11 +10,9 @@
 <tbody>
 
 <tr>
-   
-<tr>
-<td>82</td>
+<td>83</td>
 <td> 
-McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Capacitive Storage of Ions Modelled in a Pore Network using Electrical Double Layer Theories: Helmholtz, Gouy-Chapman-Stern, and modified Donnan. Desalination.
+Onyu K, Yeetsorn R, Gostick JT, Fabrication of Bipolar Plates from Thermoplastic Elastomer Composites for Vanadium Redox Flow Battery. Polymers.
 
 Links: 
    
@@ -22,8 +20,6 @@ Links:
 </tr>  
 
   
-</tr>
-
 </tbody>
 </table>
 
@@ -33,6 +29,16 @@ Links:
 
 <table width="100%">
 <tbody>
+   
+<tr>
+<td>82</td>
+<td> 
+McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Extending pore network models to include electrical double layer effects in micropores for studying capacitive deionization. Desalination. v535, p115784 (2022).
+
+Links: <a href="https://doi.org/10.1016/j.desal.2022.115784" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
+</td>
+</tr>  
 
 <tr>
 <td>81</td>
