@@ -9,17 +9,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>83</td>
-<td> 
-Onyu K, Yeetsorn R, Gostick JT, Fabrication of Bipolar Plates from Thermoplastic Elastomer Composites for Vanadium Redox Flow Battery. Polymers.
 
-Links: 
-   
-</td>
-</tr>  
-
-  
 </tbody>
 </table>
 
@@ -29,6 +19,17 @@ Links:
 
 <table width="100%">
 <tbody>
+   
+<tr>
+<td>83</td>
+<td> 
+Onyu K, Yeetsorn R, Gostick JT, Fabrication of Bipolar Plates from Thermoplastic Elastomer Composites for Vanadium Redox Flow Battery. Polymers. 14(11), 2143 (2022)
+
+Links:  <a href="https://doi.org/10.3390/polym14112143" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
+</td>
+</tr>     
+
    
 <tr>
 <td>82</td>
