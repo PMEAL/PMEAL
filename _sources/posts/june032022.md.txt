@@ -1,11 +1,12 @@
 ---
 blogpost: true
-date: July 4, 2021
+date: June 3, 2022
 author: Jeff Gostick
 location: World
 category: News
 language: English
 
 ---
+
 # PMEAL Members Represent Strong at CRSC 2022
 The 4th annual [Canadian Research Software Conference](https://www.canarie.ca/event/crsc-2022/) was held earlier this week.  Several members of the PMEAL group were present, and for the 4th straight year we won a top poster award!  Congratulations to Niloo for her hard work and enthralling the audience with her work on the use of AI to predict diffusive conductance for use in extracted pore networks.  This poster was based on her recently published paper [Computers and Geosciences](https://doi.org/10.1016/j.cageo.2022.105086).  Also, a nod to Amin who presented a 20 minute short talk on the use of Julia to speed up numerical computations.  This talk led to many follow-up conversations during the coffee breaks, and was really very convincing.  Maybe OpenPNM V4 will be in Julia?
