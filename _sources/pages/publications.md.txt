@@ -19,6 +19,17 @@
 
 <table width="100%">
 <tbody>
+
+
+<tr>
+<td>84</td>
+<td>
+Sánchez-Ramos A, Gostick JT, García-Salaberri PA. Modeling the Effect of Low Pt loading Cathode Catalyst Layer in Polymer Electrolyte Fuel Cells. Part II: Parametric Analysis. Journal of the Electrochemical Society.  169(7), 074503 (2022)
+
+Links: <a href="https://doi.org/10.1149/1945-7111/ac811d" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
+   
+</td>
+</tr> 
    
 <tr>
 <td>83</td>
