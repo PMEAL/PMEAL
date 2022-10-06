@@ -24,7 +24,7 @@ Links:
 <td>
 Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy.
 
-Links: 
+Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
    
 </td>
 </tr> 
