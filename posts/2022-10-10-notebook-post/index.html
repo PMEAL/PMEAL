@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>What’s New in OpenPNM V3 &#8212; PMEAL Homepage  documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+     
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../blog/atom.xml"
+  title="PMEAL Homepage"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../">
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class=" collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../news/">
+  News and Announcements
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../pages/people/">
+  People
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../pages/publications/">
+  Publications
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../pages/research/">
+  Research
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/PMEAL" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview-of-the-biggest-change">
+   Overview of the Biggest Change
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-important-changes">
+   Other Important Changes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exciting-additions">
+   Exciting Additions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#full-changelog-on-github">
+   Full Changelog on Github
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <section class="tex2jax_ignore mathjax_ignore" id="what-s-new-in-openpnm-v3">
+<h1>What’s New in OpenPNM V3<a class="headerlink" href="#what-s-new-in-openpnm-v3" title="Permalink to this headline">¶</a></h1>
+<p>It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last of the V2 series, was released in September 2021. This 3 year stretch saw a lot growth in the OpenPNM userbase, which if we use the Github star count as a proxy, showed a 300% increase over the period!</p>
+<p><img alt="openpnm-star-history-20221010.png" src="posts/attachment:openpnm-star-history-20221010.png" /></p>
+<p>A lot has happened over these three-four years, and it’s been quite a blur so it’s hard to remember which milestones to highlight. One major event was the PMEAL group receiving funding from CANARIE to support the growth of OpenPNM (and PoreSpy). This funding allowed for the hiring of many highly talented students who really took OpenPNM to the next level.</p>
+<section id="overview-of-the-biggest-change">
+<h2>Overview of the Biggest Change<a class="headerlink" href="#overview-of-the-biggest-change" title="Permalink to this headline">¶</a></h2>
+<p>There have been a LOT of useful and powerful additions to V3, but perhaps the biggest change is what’s missing:</p>
+<blockquote>
+<div><p>V3 has removed the concept of <code class="docutils literal notranslate"><span class="pre">Geometry</span></code> and <code class="docutils literal notranslate"><span class="pre">Physics</span></code> objects. This “workflow” was invented on the whiteboard during our initial planning sessions for V1 in 2011, and looked sensible at the time, but over the past 10+ years it became clear that this created a lot of confusion for users and a friction for the developers.</p>
+</div></blockquote>
+<p>For comparison let’s look at how this changes the scripts. In version 2 you’d initialize 4 objects:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">openpnm</span> <span class="k">as</span> <span class="nn">op</span>
+
+<span class="n">pn</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">network</span><span class="o">.</span><span class="n">Cubic</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">spacing</span><span class="o">=</span><span class="mf">1e-5</span><span class="p">)</span>
+<span class="n">geo</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">network</span><span class="o">.</span><span class="n">SphersAndCylinders</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">Ps</span><span class="p">,</span> <span class="n">throats</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">Ts</span><span class="p">)</span>
+<span class="n">air</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">phases</span><span class="o">.</span><span class="n">Air</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">)</span>
+<span class="n">phys</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">Standard</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">geometry</span><span class="o">=</span><span class="n">geo</span><span class="p">,</span> <span class="n">phase</span><span class="o">=</span><span class="n">air</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<p>While in version 3 the same result is obtained as follows:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">openpnm</span> <span class="k">as</span> <span class="nn">op</span>
+
+<span class="n">pn</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">network</span><span class="o">.</span><span class="n">Cubic</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">spacing</span><span class="o">=</span><span class="mf">1e-5</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">add_model_collection</span><span class="p">(</span><span class="n">op</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">collections</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">spheres_and_cylinders</span><span class="p">)</span>
+<span class="n">air</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">phase</span><span class="o">.</span><span class="n">Air</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">)</span>
+<span class="n">air</span><span class="o">.</span><span class="n">add_model_collection</span><span class="p">(</span><span class="n">op</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">collections</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">standard</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<p>This difference results in several important changes:</p>
+<hr class="docutils" />
+<p><strong>Back End Simplicity:</strong>
+The ‘back-end’ code complexity was <em>massively</em> reduced, which will make it far easier to maintain OpenPNM moving forward. There was quite a lot of <em>machinery</em> dedicated to tracking which pores and throats were assigned to <code class="docutils literal notranslate"><span class="pre">geo</span></code>, and that <code class="docutils literal notranslate"><span class="pre">phys</span></code> was associated with <code class="docutils literal notranslate"><span class="pre">geo</span></code>. For instance, in cases where multiple domains were used, such as <code class="docutils literal notranslate"><span class="pre">geo1</span></code> and <code class="docutils literal notranslate"><span class="pre">geo2</span></code> a lot of checks were done behind the scenes to ensure they did not conflict with each other and that all pores and throats were accounted for. There was also functionality required for ‘redefining’ which pores and throats they were applied to, and so on. Easily thousands of lines of code were deleted by this change.</p>
+<hr class="docutils" />
+<p><strong>Fewer Objects to Think About:</strong>
+Speaking of multiple domains, most users probably did not use this capability, but for those who did (like PMEAL group members!) this change will result in a much simpler experience. In most cases the effects of multiple domains was only relevant to geometries, so one might specify <code class="docutils literal notranslate"><span class="pre">geo1</span></code> and <code class="docutils literal notranslate"><span class="pre">geo2</span></code> each with different pore size distributions, but probably the same physics applied to each domain. In the old approach, you had to create a unique physics associated with each subdomain, but now you can just add a single set of physics models to a phase and they can apply everywhere.</p>
+<hr class="docutils" />
+<p><strong>Emphasizes Pore-Scale Models:</strong>
+Although we’ve attempted to make this as smooth as possible, there is no such thing as a free lunch, and the user must still invest some effort in defining which models to assign (and where). We have created <em>collections</em> to facilitate this process, which are demonstrated above. A positive take of this new approach is that users are now forced interact with pore-scale models, which are the foundation of OpenPNM’s calculations, so hopefully this encourage them to write and use their own models.</p>
+<hr class="docutils" />
+<p><strong>Easy Multidomain Control:</strong>
+We have created a new way defining multiple domains, or more to the point, we created a way to assign different pore-scale models to specific pores. In the <code class="docutils literal notranslate"><span class="pre">pn.models</span></code> dictionary you will find all the models defined on the network, but now each model name also includes the domain where it applies, so instead of <code class="docutils literal notranslate"><span class="pre">'pore.diameter'</span></code>, it’s <code class="docutils literal notranslate"><span class="pre">'pore.diameter&#64;&lt;xyz&gt;'</span></code>, where <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> is a delimiter and <code class="docutils literal notranslate"><span class="pre">&lt;xyz&gt;</span></code> is the name of a label on the network. The default is <code class="docutils literal notranslate"><span class="pre">'&#64;all'</span></code>, meaning the model applies everywhere. To create two domains with different pore sizes you now define different models such as <code class="docutils literal notranslate"><span class="pre">pn.models['pore.diameter&#64;domain1']</span></code> and <code class="docutils literal notranslate"><span class="pre">pn.models['pore.diameter&#64;domain2']</span></code>. Conveniently, you don’t need to specify different models for <em>other</em> properties like <code class="docutils literal notranslate"><span class="pre">'pore.volume'</span></code> (unless you want to).</p>
+<p>The best way to illustrate this change is by example. The code snippets below will create a multiphase domain with 2 different pore sizes, but all other models the same. It will then <em>change</em> the domains so that different pores are assigned to each domain.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">openpnm</span> <span class="k">as</span> <span class="nn">op</span>
+<span class="n">pn</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">network</span><span class="o">.</span><span class="n">Cubic</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">spacing</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+<span class="n">Ps1</span> <span class="o">=</span> <span class="n">pn</span><span class="o">.</span><span class="n">coords</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">2</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;domain1&#39;</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">Ps1</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;domain2&#39;</span><span class="p">,</span> <span class="n">pores</span><span class="o">=~</span><span class="n">Ps1</span><span class="p">)</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_coordinates</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">pores</span><span class="p">(</span><span class="s1">&#39;domain1&#39;</span><span class="p">),</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_coordinates</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">pores</span><span class="p">(</span><span class="s1">&#39;domain2&#39;</span><span class="p">),</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+<span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_connections</span><span class="p">(</span><span class="n">pn</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/2022-10-10-notebook-post_4_0.png" src="../../_images/2022-10-10-notebook-post_4_0.png" />
+</div>
+</div>
+<p>Now let’s retrieve the <code class="docutils literal notranslate"><span class="pre">stick_and_ball</span></code> geometry model collection, create a copy, alter the pore sizes on them, then assign each to different pores:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mods1</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">collections</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">spheres_and_cylinders</span>
+<span class="n">mods2</span> <span class="o">=</span> <span class="n">mods1</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pn</span><span class="o">.</span><span class="n">add_model_collection</span><span class="p">(</span><span class="n">mods1</span><span class="p">,</span> <span class="n">domain</span><span class="o">=</span><span class="s1">&#39;domain1&#39;</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">add_model_collection</span><span class="p">(</span><span class="n">mods2</span><span class="p">,</span> <span class="n">domain</span><span class="o">=</span><span class="s1">&#39;domain2&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Let’s replace the model used for computing the pore diameter with a random number between some limits, which we’ll use to create a layer of small and large pores.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pn</span><span class="o">.</span><span class="n">add_model</span><span class="p">(</span><span class="n">propname</span><span class="o">=</span><span class="s1">&#39;pore.diameter&#39;</span><span class="p">,</span> 
+             <span class="n">model</span><span class="o">=</span><span class="n">op</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">pore_size</span><span class="o">.</span><span class="n">random</span><span class="p">,</span>
+             <span class="n">num_range</span><span class="o">=</span><span class="p">[</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">],</span>
+             <span class="n">domain</span><span class="o">=</span><span class="s1">&#39;domain1&#39;</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">add_model</span><span class="p">(</span><span class="n">propname</span><span class="o">=</span><span class="s1">&#39;pore.diameter&#39;</span><span class="p">,</span> 
+             <span class="n">model</span><span class="o">=</span><span class="n">op</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">pore_size</span><span class="o">.</span><span class="n">random</span><span class="p">,</span>
+             <span class="n">num_range</span><span class="o">=</span><span class="p">[</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.99</span><span class="p">],</span>
+             <span class="n">domain</span><span class="o">=</span><span class="s1">&#39;domain2&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ax</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_coordinates</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">size_by</span><span class="o">=</span><span class="n">pn</span><span class="p">[</span><span class="s1">&#39;pore.diameter&#39;</span><span class="p">],</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+<span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_connections</span><span class="p">(</span><span class="n">pn</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/2022-10-10-notebook-post_10_0.png" src="../../_images/2022-10-10-notebook-post_10_0.png" />
+</div>
+</div>
+<p>This new approach may take some getting used to, but hopefully it has enough upsides to make it worth the it.  We don’t dive into all of these here, but let’s just look at one feature which will hopefully make it clear why this new approach simplifies the back-end.  Lets change which pores belong to <code class="docutils literal notranslate"><span class="pre">domain1</span></code> and <code class="docutils literal notranslate"><span class="pre">domain2</span></code> just by adjusting the labels.  In the previous version this required calls to the <code class="docutils literal notranslate"><span class="pre">set_locations</span></code> methods of all the geometry objects. In V3 we just need to change some pore labels and regenerate the models:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pn</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;domain1&#39;</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">coords</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;overwrite&#39;</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;domain2&#39;</span><span class="p">,</span> <span class="n">pores</span><span class="o">=</span><span class="n">pn</span><span class="o">.</span><span class="n">coords</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;overwrite&#39;</span><span class="p">)</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">regenerate_models</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_coordinates</span><span class="p">(</span><span class="n">network</span><span class="o">=</span><span class="n">pn</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">size_by</span><span class="o">=</span><span class="n">pn</span><span class="p">[</span><span class="s1">&#39;pore.diameter&#39;</span><span class="p">],</span> <span class="n">edgecolor</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+<span class="n">op</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">plot_connections</span><span class="p">(</span><span class="n">pn</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/2022-10-10-notebook-post_12_0.png" src="../../_images/2022-10-10-notebook-post_12_0.png" />
+</div>
+</div>
+</section>
+<section id="other-important-changes">
+<h2>Other Important Changes<a class="headerlink" href="#other-important-changes" title="Permalink to this headline">¶</a></h2>
+<p>There have been a handful of other <em>breaking</em> changes including:</p>
+<ul class="simple">
+<li><p>Renamed of the <code class="docutils literal notranslate"><span class="pre">phases</span></code> module to <code class="docutils literal notranslate"><span class="pre">phase</span></code>. This was purely cosmetic so that all modules have consistant pluralization.</p></li>
+<li><p>Removed the term “Generic” from the numerous class names to avoid overly complicating things. Instead of instantiating a <code class="docutils literal notranslate"><span class="pre">GenericPhase</span></code> it is now just <code class="docutils literal notranslate"><span class="pre">Phase</span></code>.</p></li>
+<li><p>Moved of the plotting tools to a new <code class="docutils literal notranslate"><span class="pre">visualization</span></code> module. Previously they were in <code class="docutils literal notranslate"><span class="pre">topotools</span></code> which was not really obvious.</p></li>
+<li><p>Overhaul of the <code class="docutils literal notranslate"><span class="pre">io</span></code> module to be a collection of clearly named functions like <code class="docutils literal notranslate"><span class="pre">network_from_statoil</span></code> rather than categorized functions like <code class="docutils literal notranslate"><span class="pre">statoil.load</span></code>. This is more consistant with other packages like <code class="docutils literal notranslate"><span class="pre">pandas</span></code> which offer functions like <code class="docutils literal notranslate"><span class="pre">from_csv</span></code>.</p></li>
+<li><p>The Bravais network generator has been removed in favor of specificly named classes like <code class="docutils literal notranslate"><span class="pre">FaceCenteredCubic</span></code> and <code class="docutils literal notranslate"><span class="pre">BodyCenteredCubic</span></code>.</p></li>
+<li><p>A lot of minor functions and features were removed. This was done in the spirit of keeping the code base small and manageble, which we’d grown to realize was a very important design consideration.</p></li>
+<li><p>Subdictionaries now work as expected, so that <code class="docutils literal notranslate"><span class="pre">pn['pore.conduit_length']['pore1']</span></code> works the same as <code class="docutils literal notranslate"><span class="pre">pn['pore.conduit_length.pore1']</span></code>. We also updated many of the models to return Nt-by-3 arrays of conduit properties rather than a dictionary.</p></li>
+<li><p>Migrated to a new documentation engine and website generator, which creates very beautiful example pages from jupyter notebooks, making it super easy to write a high quality and detailed tutorial for the website. This paved the way for the next few items…</p></li>
+<li><p>Removed the <code class="docutils literal notranslate"><span class="pre">metrics</span></code> module, in favor of creating detailed examples on the website. We created these metrics as a way to make OpenPNM <em>even easier</em> to use, but they only obscurred from the user what were relatively simple calculations.</p></li>
+<li><p>Removed the <code class="docutils literal notranslate"><span class="pre">materials</span></code> module, which will also be replaced by detailed examples on the website.</p></li>
+</ul>
+</section>
+<section id="exciting-additions">
+<h2>Exciting Additions<a class="headerlink" href="#exciting-additions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Transient solvers have been extended substantially. In V2 we’d implemented the basic Implicit and Crank-Nicolson methods, while in V3 we leverage the <code class="docutils literal notranslate"><span class="pre">scipy.integrate.ivp_solve</span></code> library to access their high-order explicit solvers. In V3.0 we have created wrappers for RK45, but more are planned.  These wrappers are in the new <code class="docutils literal notranslate"><span class="pre">integrators</span></code> module.</p></li>
+<li><p>Redesigned the numerical solver framework. We added a new module called <code class="docutils literal notranslate"><span class="pre">solvers</span></code> containing classes which define how to wrap any arbitrary numerical solver library. At present we have wrappers for <code class="docutils literal notranslate"><span class="pre">pypardiso</span></code> and <code class="docutils literal notranslate"><span class="pre">scipy.linalg.spsolve</span></code>, but more are planned.</p></li>
+<li><p>A framework for estimating physical properties of mixtures. The property calculations are based on the <code class="docutils literal notranslate"><span class="pre">chemicals</span></code> package and provides a first approximation for computing properties that are functions on composition which may change during a simulation.</p></li>
+<li><p>Complete rewrite of the ordinary percolation algorithm, now called <code class="docutils literal notranslate"><span class="pre">Drainage</span></code>.</p></li>
+<li><p>Definition of <em>pore size factors</em> which contain all the information about the shape of pores and throats. This means that computing of diffusive flow through an element is done as <span class="math notranslate nohighlight">\(N_A = D_{AB} \cdot f_{size} \Delta C_A\)</span> where the length and area of the element are embedded in <span class="math notranslate nohighlight">\(f_{size}\)</span> which includes a rigorous analyztical description of the changing cross-sectional shape.</p></li>
+</ul>
+</section>
+<section id="full-changelog-on-github">
+<h2>Full Changelog on Github<a class="headerlink" href="#full-changelog-on-github" title="Permalink to this headline">¶</a></h2>
+<p>During this past 3 years we’ve also migrated all of our continuous integration testing and release process to Github Actions. One of the great side effects of this that we can now generate very detailed changelogs from the commit messages for each merge onto the <code class="docutils literal notranslate"><span class="pre">dev</span></code> branch. The full change can be <a class="reference external" href="https://github.com/PMEAL/OpenPNM/releases">viewed here</a>.</p>
+</section>
+</section>
+
+<div class="section">
+    
+
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../june032022/">
+      <i class="fa fa-arrow-circle-left"></i> PMEAL Members Represent Strong at CRSC 2022
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, PMEAL Team.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

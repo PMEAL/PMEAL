@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2022-10-06T16:05:16.324456+00:00</updated>
+  <updated>2022-10-12T02:13:39.927560+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
@@ -91,5 +91,18 @@
     <link href="https://www.pmeal.com/posts/june032022/" rel="alternate"/>
     <summary>The 4th annual Canadian Research Software Conference was held earlier this week.  Several members of the PMEAL group were present, and for the 4th straight year we won a top poster award!  Congratulations to Niloo for her hard work and enthralling the audience with her work on the use of AI to predict diffusive conductance for use in extracted pore networks.  This poster was based on her recently published paper Computers and Geosciences.  Also, a nod to Amin who presented a 20 minute short talk on the use of Julia to speed up numerical computations.  This talk led to many follow-up conversations during the coffee breaks, and was really very convincing.  Maybe OpenPNM V4 will be in Julia?</summary>
     <published>2022-06-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.pmeal.com/posts/2022-10-10-notebook-post/</id>
+    <title>What’s New in OpenPNM V3</title>
+    <updated>2022-10-10T00:00:00+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last of the V2 series, was released in September 2021. This 3 year stretch saw a lot growth in the OpenPNM userbase, which if we use the Github star count as a proxy, showed a 300% increase over the period!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.pmeal.com/posts/2022-10-10-notebook-post/" rel="alternate"/>
+    <summary>It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last of the V2 series, was released in September 2021. This 3 year stretch saw a lot growth in the OpenPNM userbase, which if we use the Github star count as a proxy, showed a 300% increase over the period!</summary>
+    <category term="openpnm" label="openpnm"/>
+    <published>2022-10-10T00:00:00+00:00</published>
   </entry>
 </feed>
