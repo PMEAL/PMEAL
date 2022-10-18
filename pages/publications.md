@@ -25,7 +25,7 @@ Links:
 <td>
 Misaghian N, Sadeghi MA, Roberts E, Gostick JT*. Pore network modeling of zinc-air cathodes incorporating the impact of the triple-phase boundary. Journal of the Electrochemical Society. 
 
-Links: 
+Links: <a href="https://doi.org/10.1149/1945-7111/ac9a7f" target="_blank" rel="noopener noreferrer">Publisher Site</a>
    
 </td>
 </tr> 
