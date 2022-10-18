@@ -45,7 +45,7 @@ Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel=
 <td>
 Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering.
 
-Links: 
+Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
    
 </td>
 </tr> 
