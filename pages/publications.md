@@ -15,7 +15,7 @@
 <td>
 van Gorp R, van der Heijden M, Sadeghi MA, Gostick JT, and Forner-Cuenca A. Bottom-up design of porous electrode by combining a genetic algorithm and a pore network model. Chemical Engineering Journal.
 
-Links: 
+Links: <a href="https://doi.org/10.1016/j.cej.2022.139947" target="_blank" rel="noopener noreferrer">Publisher Site</a>
    
 </td>
 </tr> 
