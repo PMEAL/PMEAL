@@ -29,19 +29,9 @@ Links: <a href="https://doi.org/10.1149/1945-7111/ac9a7f" target="_blank" rel="n
    
 </td>
 </tr> 
-   
+     
 <tr>
 <td>86</td>
-<td>
-Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy.
-
-Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
-   
-</td>
-</tr> 
-   
-<tr>
-<td>85</td>
 <td>
 Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering.
 
@@ -59,8 +49,17 @@ Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopene
 
 <table width="100%">
 <tbody>
+   
+<tr>
+<td>85</td>
+<td>
+Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy.
 
+Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
 
+</td>
+</tr>
+  
 <tr>
 <td>84</td>
 <td>
