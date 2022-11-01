@@ -19,19 +19,9 @@ Links: <a href="https://doi.org/10.1016/j.cej.2022.139947" target="_blank" rel="
    
 </td>
 </tr> 
-   
+       
 <tr>
 <td>87</td>
-<td>
-Misaghian N, Sadeghi MA, Roberts E, Gostick JT*. Pore network modeling of zinc-air cathodes incorporating the impact of the triple-phase boundary. Journal of the Electrochemical Society. 
-
-Links: <a href="https://doi.org/10.1149/1945-7111/ac9a7f" target="_blank" rel="noopener noreferrer">Publisher Site</a>
-   
-</td>
-</tr> 
-     
-<tr>
-<td>86</td>
 <td>
 Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering.
 
@@ -51,9 +41,20 @@ Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopene
 <tbody>
    
 <tr>
+
+<td>86</td>
+<td>
+Misaghian N, Sadeghi MA, Roberts E, Gostick JT*. Pore network modeling of zinc-air cathodes incorporating the impact of the triple-phase boundary. Journal of the Electrochemical Society. 169(10), 100549 (2022)
+
+Links: <a href="https://doi.org/10.1149/1945-7111/ac9a7f" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr>
+   
+<tr>
 <td>85</td>
 <td>
-Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy.
+Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy. 7(10), 978–988 (2022)
 
 Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
 
@@ -84,7 +85,7 @@ Links:  <a href="https://doi.org/10.3390/polym14112143" target="_blank" rel="noo
 <tr>
 <td>82</td>
 <td> 
-McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Extending pore network models to include electrical double layer effects in micropores for studying capacitive deionization. Desalination. v535, p115784 (2022).
+McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Extending pore network models to include electrical double layer effects in micropores for studying capacitive deionization. Desalination. 535, 115784 (2022).
 
 Links: <a href="https://doi.org/10.1016/j.desal.2022.115784" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
    
