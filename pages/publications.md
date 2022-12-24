@@ -9,32 +9,23 @@
 <table width="100%">
 <tbody>
    
+   
 <tr>
-<td>87</td>
+<td>##</td>
 <td>
-Misaghian N, Sadeghi MA, Roberts E, Gostick JT*. Pore network modeling of zinc-air cathodes incorporating the impact of the triple-phase boundary. Journal of the Electrochemical Society. 
+van Gorp R, van der Heijden M, Sadeghi MA, Gostick JT, and Forner-Cuenca A. Bottom-up design of porous electrode by combining a genetic algorithm and a pore network model. Chemical Engineering Journal.
 
-Links: 
+Links: <a href="https://doi.org/10.1016/j.cej.2022.139947" target="_blank" rel="noopener noreferrer">Publisher Site</a>
    
 </td>
 </tr> 
-   
+       
 <tr>
-<td>86</td>
-<td>
-Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy.
-
-Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
-   
-</td>
-</tr> 
-   
-<tr>
-<td>85</td>
+<td>##</td>
 <td>
 Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering.
 
-Links: 
+Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
    
 </td>
 </tr> 
@@ -49,7 +40,36 @@ Links:
 <table width="100%">
 <tbody>
 
+<tr>
+<td>87</td>
+<td>
+Onyu K, Yeetsorn R, Gostick JT, Chitvuttichot S. Performance Analysis and Monitoring of Vanadium Redox Flow Battery via Polarization curves.  Applied Sciences. 12(22), 11702 (2022)
 
+Links: <a href="https://doi.org/10.3390/app122211702" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr>
+   
+<tr>
+<td>86</td>
+<td>
+Misaghian N, Sadeghi MA, Roberts E, Gostick JT*. Pore network modeling of zinc-air cathodes incorporating the impact of the triple-phase boundary. Journal of the Electrochemical Society. 169(10), 100549 (2022)
+
+Links: <a href="https://doi.org/10.1149/1945-7111/ac9a7f" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr>
+   
+<tr>
+<td>85</td>
+<td>
+Wen G, Ren B, Wang X, Luo D, Dou H, Bai Z, Gostick JT, Yu A, Chen Z, Continuous CO2 electrolysis using a CO2 exsolution-induced flow cell. Nature Energy. 7(10), 978–988 (2022)
+
+Links: <a href="https://doi.org/10.1038/s41560-022-01130-6" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+
+</td>
+</tr>
+  
 <tr>
 <td>84</td>
 <td>
@@ -74,7 +94,7 @@ Links:  <a href="https://doi.org/10.3390/polym14112143" target="_blank" rel="noo
 <tr>
 <td>82</td>
 <td> 
-McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Extending pore network models to include electrical double layer effects in micropores for studying capacitive deionization. Desalination. v535, p115784 (2022).
+McKague MG, Fathiannasab H, Agnaou M, Sadeghi MA, Gostick JT*, Extending pore network models to include electrical double layer effects in micropores for studying capacitive deionization. Desalination. 535, 115784 (2022).
 
 Links: <a href="https://doi.org/10.1016/j.desal.2022.115784" target="_blank" rel="noopener noreferrer">Publisher Site</a> 
    
