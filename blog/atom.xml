@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2022-12-24T17:15:37.627225+00:00</updated>
+  <updated>2022-12-24T18:17:57.629267+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
@@ -113,11 +113,11 @@
       <name>Jeff Gostick</name>
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Niloofar Misaghain joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!&lt;/p&gt;
+&lt;p&gt;Niloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="https://www.pmeal.com/posts/dec242022/" rel="alternate"/>
-    <summary>Niloofar Misaghain joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!</summary>
+    <summary>Niloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!</summary>
     <published>2022-12-24T00:00:00+00:00</published>
   </entry>
 </feed>
