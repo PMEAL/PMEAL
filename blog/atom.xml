@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2022-11-25T15:15:04.261376+00:00</updated>
+  <updated>2022-12-24T17:15:37.627225+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
@@ -50,7 +50,7 @@
     <published>2021-12-07T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.pmeal.com/posts/dec142012/</id>
+    <id>https://www.pmeal.com/posts/dec142021/</id>
     <title>Prof Gostick presents new image-based invasion algorithm at AGU21</title>
     <updated>2021-12-14T00:00:00+00:00</updated>
     <author>
@@ -60,7 +60,7 @@
 &lt;p&gt;The annual fall meeting of the Americal Geophysical Union (aka AGU) is underway this week.  The PMEAL group gave a talk about our new image-based invasion algorithm that incorporates gravity.  This work was motivated by the ever increasing size of tomograms, which introduces the possibility that gravity may impact the phase distributions.  Standard sphere insertion algorithms only include capillary effects, so this work extended them to also include gravity.  This work is currently under review, so a more detailed announcement and demonstration will be made when it’s accepted, but for now you can watch a pre-recorded video of the talk &lt;a class="reference external" href="https://tinyurl.com/AGU21-Gostick"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://www.pmeal.com/posts/dec142012/" rel="alternate"/>
+    <link href="https://www.pmeal.com/posts/dec142021/" rel="alternate"/>
     <summary>The annual fall meeting of the Americal Geophysical Union (aka AGU) is underway this week.  The PMEAL group gave a talk about our new image-based invasion algorithm that incorporates gravity.  This work was motivated by the ever increasing size of tomograms, which introduces the possibility that gravity may impact the phase distributions.  Standard sphere insertion algorithms only include capillary effects, so this work extended them to also include gravity.  This work is currently under review, so a more detailed announcement and demonstration will be made when it’s accepted, but for now you can watch a pre-recorded video of the talk here.</summary>
     <published>2021-12-14T00:00:00+00:00</published>
   </entry>
@@ -104,5 +104,20 @@
     <summary>It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last of the V2 series, was released in September 2021. This 3 year stretch saw a lot growth in the OpenPNM userbase, which if we use the Github star count as a proxy, showed a 300% increase over the period!</summary>
     <category term="openpnm" label="openpnm"/>
     <published>2022-10-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.pmeal.com/posts/dec242022/</id>
+    <title>Congratulations to Niloo for successfully defending her PhD!</title>
+    <updated>2022-12-24T00:00:00+00:00</updated>
+    <author>
+      <name>Jeff Gostick</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Niloofar Misaghain joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://www.pmeal.com/posts/dec242022/" rel="alternate"/>
+    <summary>Niloofar Misaghain joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th.  It was a slam-dunk, with 3 first-author papers, plus authorship on another.  Not to mention many contributions to the OpenPNM and PoreSpy code bases.  Thanks for all your hard work Niloo!</summary>
+    <published>2022-12-24T00:00:00+00:00</published>
   </entry>
 </feed>
