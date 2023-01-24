@@ -9,6 +9,16 @@
 <table width="100%">
 <tbody>
    
+<tr>
+<td>##</td>
+<td>
+Kim YW, Urbina LP, Asset T, Secanell M, Atanassov P, Barralet J, Gostick JT. Insights on Designing non-PGM Catalyst Layers at Low Humidity. Journal of Power Sources.
+
+Links: 
+
+</td>
+</tr> 
+   
    
 <tr>
 <td>##</td>
