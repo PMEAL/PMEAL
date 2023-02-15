@@ -12,6 +12,16 @@
 <tr>
 <td>##</td>
 <td>
+Yu H, Pritzker M, Gostick JT. Use of Mixed Methanesulfonic Acid/Sulfuric Acid as Positive Supporting Electrolyte in Zn-Ce Redox Flow Battery. Journal of the Electrochemical Society.
+
+Links: 
+   
+</td>
+</tr> 
+   
+<tr>
+<td>##</td>
+<td>
 Kim YW, Urbina LP, Asset T, Secanell M, Atanassov P, Barralet J, Gostick JT. Insights on Designing non-PGM Catalyst Layers at Low Humidity. Journal of Power Sources.
 
 Links: 
