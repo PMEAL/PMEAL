@@ -14,32 +14,11 @@
 <td>
 Yu H, Pritzker M, Gostick JT. Use of Mixed Methanesulfonic Acid/Sulfuric Acid as Positive Supporting Electrolyte in Zn-Ce Redox Flow Battery. Journal of the Electrochemical Society.
 
-Links: 
+Links: <a href="https://www.doi.org/10.1149/1945-7111/acb8dd" target="_blank" rel="noopener noreferrer">Publisher Site</a>
    
 </td>
 </tr> 
-   
-<tr>
-<td>##</td>
-<td>
-Kim YW, Urbina LP, Asset T, Secanell M, Atanassov P, Barralet J, Gostick JT. Insights on Designing non-PGM Catalyst Layers at Low Humidity. Journal of Power Sources.
-
-Links: 
-
-</td>
-</tr> 
-   
-   
-<tr>
-<td>##</td>
-<td>
-van Gorp R, van der Heijden M, Sadeghi MA, Gostick JT, and Forner-Cuenca A. Bottom-up design of porous electrode by combining a genetic algorithm and a pore network model. Chemical Engineering Journal.
-
-Links: <a href="https://doi.org/10.1016/j.cej.2022.139947" target="_blank" rel="noopener noreferrer">Publisher Site</a>
-   
-</td>
-</tr> 
-       
+         
 <tr>
 <td>##</td>
 <td>
@@ -54,6 +33,36 @@ Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopene
 </table>
 
 <hr>
+
+## 2023
+
+<table width="100%">
+
+<tbody>
+
+
+<tr>
+<td>89</td>
+<td>
+Kim YW, Urbina LP, Asset T, Secanell M, Atanassov P, Barralet J, Gostick JT. Insights on Designing non-PGM Catalyst Layers at Low Humidity. Journal of Power Sources. 66(4), 232741 (2023).
+
+Links: <a href="https://doi.org/10.1016/j.jpowsour.2023.232741" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+   
+<tr>
+<td>88</td>
+<td>
+van Gorp R, van der Heijden M, Sadeghi MA, Gostick JT, and Forner-Cuenca A. Bottom-up design of porous electrode by combining a genetic algorithm and a pore network model. Chemical Engineering Journal. Volume 455(1), 139947 (2023)
+
+Links: <a href="https://doi.org/10.1016/j.cej.2022.139947" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+
+</tbody>
+</table>
 
 ## 2022
 
