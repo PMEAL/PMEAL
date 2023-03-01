@@ -8,17 +8,7 @@
 
 <table width="100%">
 <tbody>
-   
-<tr>
-<td>##</td>
-<td>
-Yu H, Pritzker M, Gostick JT. Use of Mixed Methanesulfonic Acid/Sulfuric Acid as Positive Supporting Electrolyte in Zn-Ce Redox Flow Battery. Journal of the Electrochemical Society.
-
-Links: <a href="https://www.doi.org/10.1149/1945-7111/acb8dd" target="_blank" rel="noopener noreferrer">Publisher Site</a>
-   
-</td>
-</tr> 
-         
+           
 <tr>
 <td>##</td>
 <td>
@@ -40,7 +30,16 @@ Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopene
 
 <tbody>
 
+<tr>
+<td>90</td>
+<td>
+Yu H, Pritzker M, Gostick JT. Use of Mixed Methanesulfonic Acid/Sulfuric Acid as Positive Supporting Electrolyte in Zn-Ce Redox Flow Battery. Journal of the Electrochemical Society. 170(2), 020536 (2023).
 
+Links: <a href="https://www.doi.org/10.1149/1945-7111/acb8dd" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+   
 <tr>
 <td>89</td>
 <td>
