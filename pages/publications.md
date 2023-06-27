@@ -8,12 +8,11 @@
 
 <table width="100%">
 <tbody>
-
            
 <tr>
 <td>##</td>
 <td>
-Lee KM,  Pahlevaninezhad M, Smith V, Abouali S, Orfino FP, Kjeang E, Pope M, Roberts E, Gostick JT*. Improvement of vanadium redox flow battery performance obtained by compression and laser perforation of electrospun electrodes. Materials Today Energy.
+Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media.
 
 Links: <a href="https://doi.org/10.1016/j.mtener.2023.101333" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
 
@@ -21,17 +20,7 @@ Links: <a href="https://doi.org/10.1016/j.mtener.2023.101333" target="_blank" re
 </tr> 
 
 
-           
-<tr>
-<td>##</td>
-<td>
-Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering.
 
-Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
-   
-</td>
-</tr> 
-   
 </tbody>
 </table>
 
@@ -42,6 +31,29 @@ Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopene
 <table width="100%">
 
 <tbody>
+
+
+<tr>
+<td>92</td>
+<td>
+Lee KM,  Pahlevaninezhad M, Smith V, Abouali S, Orfino FP, Kjeang E, Pope M, Roberts E, Gostick JT*. Improvement of vanadium redox flow battery performance obtained by compression and laser perforation of electrospun electrodes. Materials Today Energy.  35, 101333 (2023)
+
+Links: <a href="https://doi.org/10.1016/j.mtener.2023.101333" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+
+</td>
+</tr> 
+
+           
+<tr>
+<td>91</td>
+<td>
+Ghanbari S, Golmohammadi M, Gostick JT*. Computational Analysis of Citric Acid Pertraction in Emulsion Liquid Membranes. Canadian Journal of Chemical Engineering. 101(6), 3607-3623 (2023).
+
+Links: <a href="https://doi.org/10.1002/cjce.24693" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+   
+</td>
+</tr> 
+
 
 <tr>
 <td>90</td>
