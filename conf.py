@@ -31,10 +31,7 @@ blog_title = "PMEAL Homepage"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
 html_sidebars = {
-    "**": [
-        "sidebar-nav-bs.html",
-        # "recentposts.html",
-    ]
+    "blog": ['ablog/recentposts.html', 'ablog/archives.html', ],
 }
 
 jupyter_execute_notebooks = "off"
