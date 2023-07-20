@@ -6,9 +6,10 @@ mock
 myst-nb
 pandoc
 pydata-sphinx-theme
-sphinx>7.0.0
+sphinx
 sphinx-copybutton
 sphinx-design
+sphinx-panels
 ablog
 openpnm
 porespy
