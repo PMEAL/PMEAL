@@ -10,17 +10,6 @@
 <tbody>
 
 
-<tr>
-<td>##</td>
-<td>
-Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media.
-
-Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
-
-</td>
-</tr> 
-
-
 </tbody>
 </table>
 
@@ -31,6 +20,17 @@ Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel=
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>94</td>
+<td>
+Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media. 149, 453–478 (2023)
+
+Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+
+</td>
+</tr> 
+
 
 <tr>
 <td>93</td>
