@@ -13,7 +13,7 @@
 <td>##</td>
 <td>
            
-Olbrich W, Kadyk T, Sauter U, Eikerling M, Gostick JT. Structure and Conductivity of Ionomer in PEM Fuel Cell Catalyst Layers: A Model-Based Analysis. Scientific Reports.
+Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy.
 
 Links: 
 
@@ -30,6 +30,17 @@ Links:
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>95</td>
+<td>
+           
+Olbrich W, Kadyk T, Sauter U, Eikerling M, Gostick JT. Structure and Conductivity of Ionomer in PEM Fuel Cell Catalyst Layers: A Model-Based Analysis. Scientific Reports. 13(1), 14127 (2023)
+
+Links: 
+
+</td>
+</tr> 
 
 <tr>
 <td>94</td>
