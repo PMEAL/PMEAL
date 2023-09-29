@@ -37,7 +37,7 @@ Links:
            
 Olbrich W, Kadyk T, Sauter U, Eikerling M, Gostick JT. Structure and Conductivity of Ionomer in PEM Fuel Cell Catalyst Layers: A Model-Based Analysis. Scientific Reports. 13(1), 14127 (2023)
 
-Links: 
+Links: <a href="https://doi.org/10.1038/s41598-023-40637-0" target="_blank" rel="noopener noreferrer">Publisher Site, with Open Access PDF</a>  
 
 </td>
 </tr> 
