@@ -12,8 +12,8 @@
 <tr>
 <td>##</td>
 <td>
-           
-Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy.
+
+Burton N, Abdala A, Zarshenas K, Ghanbari S, Somvanshi C, Gostick JT, Pope MA. Unleashing the Potential of Scalable, High-Water Vapour Permeance Graphene Oxide Membranes using Electrospun Supports. Journal of Membrane Science.
 
 Links: 
 
@@ -30,6 +30,17 @@ Links:
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>96</td>
+<td>
+           
+Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT*. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy. 353(A), 122004 (2024).
+
+Links: <a href="https://doi.org/10.1016/j.apenergy.2023.122004" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
 
 <tr>
 <td>95</td>
