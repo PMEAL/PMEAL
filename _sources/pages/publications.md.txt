@@ -23,10 +23,8 @@ Links:
 </tbody>
 </table>
 
-<hr>
 
-## 2023
-
+## 2024
 <table width="100%">
 
 <tbody>
@@ -40,6 +38,17 @@ Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller 
 Links: <a href="https://doi.org/10.1016/j.apenergy.2023.122004" target="_blank" rel="noopener noreferrer">Publisher Site</a>
 
 </td>
+</tr> 
+
+</tbody>
+</table>
+
+## 2023
+
+<table width="100%">
+
+<tbody>
+
 </tr> 
 
 <tr>
