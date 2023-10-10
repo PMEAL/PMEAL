@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.pmeal.com</id>
   <title>PMEAL Homepage</title>
-  <updated>2023-10-06T02:09:21.179760+00:00</updated>
+  <updated>2023-10-10T19:57:28.169633+00:00</updated>
   <link href="https://www.pmeal.com"/>
   <link href="https://www.pmeal.com/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.io/" version="0.11.5">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.6">ABlog</generator>
   <entry>
     <id>https://www.pmeal.com/posts/dec242022/</id>
     <title>Congratulations to Niloo for successfully defending her PhD!</title>
