@@ -9,28 +9,69 @@
 <table width="100%">
 <tbody>
 
-
 <tr>
 <td>##</td>
 <td>
-Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media.
 
-Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+Burton N, Abdala A, Zarshenas K, Ghanbari S, Somvanshi C, Gostick JT, Pope MA. Unleashing the Potential of Scalable, High-Water Vapour Permeance Graphene Oxide Membranes using Electrospun Supports. Journal of Membrane Science.
+
+Links: 
 
 </td>
 </tr> 
 
-
 </tbody>
 </table>
 
-<hr>
+
+## 2024
+<table width="100%">
+
+<tbody>
+
+<tr>
+<td>96</td>
+<td>
+           
+Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT*. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy. 353(A), 122004 (2024).
+
+Links: <a href="https://doi.org/10.1016/j.apenergy.2023.122004" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+
+</tbody>
+</table>
 
 ## 2023
 
 <table width="100%">
 
 <tbody>
+
+</tr> 
+
+<tr>
+<td>95</td>
+<td>
+           
+Olbrich W, Kadyk T, Sauter U, Eikerling M, Gostick JT. Structure and Conductivity of Ionomer in PEM Fuel Cell Catalyst Layers: A Model-Based Analysis. Scientific Reports. 13(1), 14127 (2023)
+
+Links: <a href="https://doi.org/10.1038/s41598-023-40637-0" target="_blank" rel="noopener noreferrer">Publisher Site, with Open Access PDF</a>  
+
+</td>
+</tr> 
+
+<tr>
+<td>94</td>
+<td>
+Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media. 149, 453–478 (2023)
+
+Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
+
+</td>
+</tr> 
+
 
 <tr>
 <td>93</td>
