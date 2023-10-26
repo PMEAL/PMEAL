@@ -1,7 +1,5 @@
 ---
-title: "Poromics Lab"
+title: "Porous Materials Engineering and Analysis Lab"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is our new website builder
