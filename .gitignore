@@ -8,3 +8,4 @@ posts/.ipynb_checkpoints
 _site
 
 /.quarto/
+.quarto
