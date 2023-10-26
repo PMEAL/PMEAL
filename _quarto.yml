@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "PMEAL"
+  title: ""
   navbar:
     logo: _static/logo.png  
     left:
@@ -14,7 +14,7 @@ website:
       - publications.qmd
       - research.qmd
       - blog.qmd
-      - pages/about.qmd
+      - about.qmd
 
 format:
   html:

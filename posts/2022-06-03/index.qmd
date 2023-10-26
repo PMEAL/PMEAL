@@ -3,6 +3,7 @@ title: "PMEAL Members Represent Strong at CRSC 2022"
 author: "Jeff Gostick"
 date: "June 3, 2022"
 categories: [news]
+image: cover_image.png
 ---
 
 # PMEAL Members Represent Strong at CRSC 2022

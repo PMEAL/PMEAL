@@ -3,6 +3,7 @@ title: "Adding Gravity to Image Based Drainage Simulations"
 author: "Jeff Gostick"
 date: "February 9, 2022"
 categories: [news]
+image: cover_image.png
 ---
 
 # Adding Gravity to Image Based Drainage Simulations

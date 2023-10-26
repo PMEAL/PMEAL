@@ -3,6 +3,7 @@ title: "Prof Gostick presents new image-based invasion algorithm at AGU21"
 author: "Jeff Gostick"
 date: "December 14, 2021"
 categories: [news]
+image: cover_image.png
 ---
 
 # Prof Gostick presents new image-based invasion algorithm at AGU21
