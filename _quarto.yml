@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Poromics Lab"
+  navbar:
+    logo: _static/logo.png  
+    left:
+      - href: index.qmd
+        text: Home
+      - publications.qmd
+      - research.qmd
+      - blog.qmd
+      - pages/about.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+
+

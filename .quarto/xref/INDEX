@@ -1,0 +1,41 @@
+{
+  "about.qmd": {
+    "about.html": "10e99fc7"
+  },
+  "index.qmd": {
+    "index.html": "2a30ea2b"
+  },
+  "publications.qmd": {
+    "publications.html": "054ce7bf"
+  },
+  "research.qmd": {
+    "research.html": "078c5057"
+  },
+  "blog.qmd": {
+    "blog.html": "bef738a4"
+  },
+  "posts/post1/index.qmd": {
+    "index.html": "5f1ff015"
+  },
+  "blog/about.qmd": {
+    "about.html": "ee155905"
+  },
+  "blog/index.qmd": {
+    "index.html": "406817a3"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "1a4e056d"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "9cf22659"
+  },
+  "blog/posts/post-with-code/index.qmd": {
+    "index.html": "51be12c5"
+  },
+  "blog/posts/welcome/index.qmd": {
+    "index.html": "a41ffcdb"
+  },
+  "pages/about.qmd": {
+    "about.html": "cc1c5f91"
+  }
+}
