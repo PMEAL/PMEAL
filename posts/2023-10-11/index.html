@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2023-10-23">
+<meta name="author" content="Jeff Gostick">
+<meta name="dcterms.date" content="2023-10-11">
 
-<title>PMEAL - Welcome To My Blog</title>
+<title>PMEAL - Blank for Now</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Blank for Now</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
               </div>
@@ -130,14 +130,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>Jeff Gostick </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 23, 2023</p>
+        <p class="date">October 11, 2023</p>
       </div>
     </div>
     
@@ -149,7 +149,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#creating-a-detailed-pore-scale-model-of-the-pemfc-catalyst-layer-using-openpnm-and-porespy" id="toc-creating-a-detailed-pore-scale-model-of-the-pemfc-catalyst-layer-using-openpnm-and-porespy" class="nav-link active" data-scroll-target="#creating-a-detailed-pore-scale-model-of-the-pemfc-catalyst-layer-using-openpnm-and-porespy">Creating a Detailed Pore-Scale Model of the PEMFC Catalyst layer using OpenPNM and PoreSpy</a>
+  <ul class="collapse">
+  <li><a href="#multiphase-network-extraction" id="toc-multiphase-network-extraction" class="nav-link" data-scroll-target="#multiphase-network-extraction">Multiphase Network Extraction</a></li>
+  <li><a href="#parallelized-network-extraction" id="toc-parallelized-network-extraction" class="nav-link" data-scroll-target="#parallelized-network-extraction">Parallelized Network Extraction</a></li>
+  <li><a href="#phase-network-extraction-of-a-2nmvoxel-pfib-sem-image" id="toc-phase-network-extraction-of-a-2nmvoxel-pfib-sem-image" class="nav-link" data-scroll-target="#phase-network-extraction-of-a-2nmvoxel-pfib-sem-image">4-Phase Network Extraction of a 2nm/voxel pFIB-SEM Image</a></li>
+  <li><a href="#multiphysics-simulation-of-pemfc-polarization-curves" id="toc-multiphysics-simulation-of-pemfc-polarization-curves" class="nav-link" data-scroll-target="#multiphysics-simulation-of-pemfc-polarization-curves">Multiphysics Simulation of PEMFC Polarization Curves</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -157,11 +170,40 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<section id="creating-a-detailed-pore-scale-model-of-the-pemfc-catalyst-layer-using-openpnm-and-porespy" class="level1">
+<h1>Creating a Detailed Pore-Scale Model of the PEMFC Catalyst layer using OpenPNM and PoreSpy</h1>
+<p>A few days ago our lastest paper went “live” in <a href="https://doi.org/10.1016/j.apenergy.2023.122004">Applied Energy</a>. I don’t normally post announcements about this sort of thing, but this case is noteworthy. Firstly, it’s a really great paper, with contributions from more collaborators than usual. Shawn Litster’s group at CMU provided volumetric images. Researchers from the fuel cell research team at GM provided the experimental performance and degradation data. Dave Muller’s group from Cornell measured the Pt distribution in the catalyst layer. So lots of brain power was behind this work…but that is not the part I want to brag about. This paper represents the culmination of all the work conducted in the PMEAL lab over the last 5 years, and I wanted to take a moment to summarize just how many developments were required to get here.</p>
+<section id="multiphase-network-extraction" class="level2">
+<h2 class="anchored" data-anchor-id="multiphase-network-extraction">Multiphase Network Extraction</h2>
+<p>The ability to reliably extract pore networks from images has always been a challenge. Martin Blunt has been generous with sharing of his group’s MaximalBall code since he published it in 2010, but this code was not exactly user friendly. In 2017 I moved from McGill to UWaterloo and had a few semesters in a row with no teaching. This turned out to be the perfect opportunity to work on our own network extraction code, which we called SNOW (since catchy acronyms are always a good idea!). Having our own extraction code, written in python, and frankly quite simple, was a huge boost for us since we could customize and optimize it at will. We leveraged this ability to make several important extensions to the code.</p>
+<p><img src="../../_static/images/figure_1f.png" class="img-fluid"></p>
+<p>At some point we realized that not only could the network extraction be applied to <a href="https://dx.doi.org/10.1149/1945-7111/ab7bd8">both the solid and void phases</a>, but also that we could connect these two networks to allow exchange of material between the phases. This was the subject of a paper in <a href="https://doi.org/10.1016/j.compchemeng.2018.12.025">Computers in Chemical Engineering</a>, and utilized for <a href="https://doi.org/10.1149/1945-7111/ac120c">modeling Li-ion battery discharge</a>. Interconnected, multiphase network extraction is essential for ‘multiphysics’ modeling in PNMs.</p>
+<p><img src="../../_static/images/2_phase_extraction_4.png" class="img-fluid"></p>
+</section>
+<section id="parallelized-network-extraction" class="level2">
+<h2 class="anchored" data-anchor-id="parallelized-network-extraction">Parallelized Network Extraction</h2>
+<p>The watershed filter is the main step in the SNOW algorithm, but it can be annoyingly slow on large images. <a href="https://doi.org/10.1016/j.advwatres.2020.103734">In 2020</a> we found that this filter could be applied to an image in chunks and then pieced back together to nearly perfect results, if a sufficent amount of overlap was used between the chunks. The ability to process many chunks in parallel is obviously quite handy when dealing with massive images, assuming you have a PC with lots of cores and enough RAM.</p>
+<p><img src="../../_static/images/parallel_snow.png" class="img-fluid"></p>
+</section>
+<section id="phase-network-extraction-of-a-2nmvoxel-pfib-sem-image" class="level2">
+<h2 class="anchored" data-anchor-id="phase-network-extraction-of-a-2nmvoxel-pfib-sem-image">4-Phase Network Extraction of a 2nm/voxel pFIB-SEM Image</h2>
+<p>The above progress in network extraction allowed us to build “the ultimate” pore network model of a fuel cell catalyst layer. These layers consist of FOUR phases: void, ionomer, carbon and platinum. Gas diffusion in the void space and dissolves into the ionomer phase. Ions travel through the ionomer phase and meet dissolved gas at the catalyst sites. Electrons travel through the carbon backbone to the reaction sites as well. The transport of all these species is directly coupled to the microscopic structure of each phase so this problem is a great candidate for PNMs.</p>
+<p>We started applying our multiphase network extraction tool to artificially generated images, and gave a talk about this at an ECS meeting. Shawn Litster was in the audience and mentioned that he had REAL images of catalyst layers obtained with FIB-SEM at 2nm voxel resolution (in all three directions!). So we switched to working on these images. This required some experimenting with ways to insert carbon spheres and Pt sites into the image, but eventually we had a viable image. The problem was that even with such excellent resolution, the network extraction tool had trouble with the smaller features…so we had to magnify the image by 4x.</p>
+<p>So we had 4 phase image that was already quite large (1600 voxels cubed) that was zoomed up by another factor of 4, and we needed to perform multiphase network extraction on it. This felt like all the hard work over the past 5+ years was leading to this moment. The results speak form themselves:</p>
+<p><img src="../../_static/images/tomography-4phase-all-net2.png" class="img-fluid"></p>
+</section>
+<section id="multiphysics-simulation-of-pemfc-polarization-curves" class="level2">
+<h2 class="anchored" data-anchor-id="multiphysics-simulation-of-pemfc-polarization-curves">Multiphysics Simulation of PEMFC Polarization Curves</h2>
+<p>The pictures look great, but the model worked great too. We were able to predict the polarization behavior of the cell at “beginnng of life” (i.e.&nbsp;new) and after accelerated stress tests caused catalyst degradation. The interesting thing about this result is that we were able to capture most of the degradation just by deleting Pt sites from the network, in proportion to the loss of Pt surface area. There must be a few other mechanisms occuring too, but considering only this single, simple thing was enough to largely describe the trends.</p>
+<p><img src="../../_static/images/degradation_skewedPtLoss.png" class="img-fluid"></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>So big congratulations to Amin Sadeghi, who was my PhD student then postdoctoral associate during the years the above work was being done. Also thanks to all the collaborators and contributors to this project.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
