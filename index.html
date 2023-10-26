@@ -1,477 +1,384 @@
-
-
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<html lang="en" >
-
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-
-    <title>PMEAL Homepage &#8212; PMEAL Homepage  documentation</title>
-  
-  
-  
-  <script data-cfasync="false">
-    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
-  </script>
-  
-  <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
-
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
-  
-  <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
-
-    <script data-url_root="#" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
-    <link rel="index" title="Index" href="genindex/" />
-    <link rel="search" title="Search" href="search/" />
-    <link rel="next" title="News and Announcements" href="posts/news/" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
-
-<link
-  rel="alternate"
-  type="application/atom+xml"
-  href="blog/atom.xml"
-  title="PMEAL Homepage"
-/>
+<title>Poromics Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
 
 
-
-  </head>
-  
-  
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
-
-  
-  
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  
-  <div id="pst-scroll-pixel-helper"></div>
-
-  
-  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
-
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
-<form class="bd-search d-flex align-items-center"
-      action="search/"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         id="search-input"
-         placeholder="Search the docs ..."
-         aria-label="Search the docs ..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
-  
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-<div class="bd-header__inner bd-page-width">
-  <label class="sidebar-toggle primary-toggle" for="__primary">
-    <span class="fa-solid fa-bars"></span>
-  </label>
-  
-  
-  <div class=" navbar-header-items__start">
-    
-      <div class="navbar-item">
-  
-
-<a class="navbar-brand logo" href="#">
-  
-  
-  
-  
-    
-    
-      
-    
-    
-    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
-  
-  
-</a></div>
-    
-  </div>
-  
-  <div class=" navbar-header-items">
-    
-    <div class="me-auto navbar-header-items__center">
-      
-        <div class="navbar-item"><nav class="navbar-nav">
-  <p class="sidebar-header-items__title"
-     role="heading"
-     aria-level="1"
-     aria-label="Site Navigation">
-    Site Navigation
-  </p>
-  <ul class="bd-navbar-elements navbar-nav">
-    
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="posts/news/">
-                        News and Announcements
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/">
-                        <no title>
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/people/">
-                        People
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/publications/">
-                        Publications
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/research/">
-                        Research
-                      </a>
-                    </li>
-                
-  </ul>
-</nav></div>
-      
-    </div>
-    
-    
-    <div class="navbar-header-items__end">
-      
-        <div class="navbar-item navbar-persistent--container">
-          
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script>
-        </div>
-      
-      
-        <div class="navbar-item">
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script></div>
-      
-        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
-    aria-label="Icon Links">
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://github.com/PMEAL" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
-            <span class="sr-only">GitHub</span></a>
-        </li>
-</ul></div>
-      
-    </div>
-    
-  </div>
-  
-  
-    <div class="navbar-persistent--mobile">
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script>
-    </div>
-  
-
-  
-    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
-      <span class="fa-solid fa-outdent"></span>
-    </label>
-  
-</div>
-
-    </nav>
-  
-  <div class="bd-container">
-    <div class="bd-container__inner bd-page-width">
-      
-      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
-        
-
-  
-  <div class="sidebar-header-items sidebar-primary__section">
-    
-    
-      <div class="sidebar-header-items__center">
-        
-          <div class="navbar-item"><nav class="navbar-nav">
-  <p class="sidebar-header-items__title"
-     role="heading"
-     aria-level="1"
-     aria-label="Site Navigation">
-    Site Navigation
-  </p>
-  <ul class="bd-navbar-elements navbar-nav">
-    
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="posts/news/">
-                        News and Announcements
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/">
-                        <no title>
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/people/">
-                        People
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/publications/">
-                        Publications
-                      </a>
-                    </li>
-                
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="pages/research/">
-                        Research
-                      </a>
-                    </li>
-                
-  </ul>
-</nav></div>
-        
-      </div>
-    
-    
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item">
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script></div>
-        
-          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
-    aria-label="Icon Links">
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://github.com/PMEAL" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
-            <span class="sr-only">GitHub</span></a>
-        </li>
-</ul></div>
-        
-      </div>
-    
-  </div>
-  
-  
-  <div class="sidebar-primary-items__end sidebar-primary__section">
-  </div>
-  
-  <div id="rtd-footer-container"></div>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
-      </div>
-      
-      <main id="main-content" class="bd-main">
-        
-        
-          <div class="bd-content">
-            <div class="bd-article-container">
-              
-              <div class="bd-header-article"></div>
-              
-              
-              
-                
-<div id="searchbox"></div>
-                <article class="bd-article" role="main">
-                  
-<img alt="_images/banner.png" id="banner" src="_images/banner.png" />
-<div class="toctree-wrapper compound">
-</div>
-<hr class="docutils" />
-<section id="pmeal-homepage">
-<h1>PMEAL Homepage<a class="headerlink" href="#pmeal-homepage" title="Permalink to this heading">#</a></h1>
-<p>The Porous Materials Engineering &amp; Analysis Lab (PMEAL) focuses on the study of atypical porous media, such as engineered materials including electrodes, membranes, filters, papers, and catalyst supports.  These materials are a challenge to study using the classic tools and theories developed for the traditional geoscience applications such as rock, sand, and soil.</p>
-<p>Research in our lab focuses on three main aspects: measuring transport and structural properties by developing novel characterization tools, modeling transport processes and device performance using pore-scale simulations, and making customized materials targeted for specific applications based on the findings and results of the other two steps.  We are also highly interested in visualization of porous materials using x-ray tomography, and extracting previously unimaginable information via quantitative analysis on the resultant volumetric images.  This aspect of our work actually bridges all three of the main themes.</p>
-<p>PMEAL is run by <a class="reference external" href="https://uwaterloo.ca/chemical-engineering/profile/jgostick">Prof. Jeff Gostick</a> and is located at the <a class="reference external" href="https://uwaterloo.ca">University of Waterloo</a>, in the <a class="reference external" href="https://uwaterloo.ca/chemical-engineering/">Department of Chemical Engineering</a>.  For more information on the type of projects being pursued by the PMEAL team, take a look at the <a class="reference external" href="/pages/publications">Publications page</a>, or check out Prof. Gostick’s <a class="reference external" href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;amp;hl=en">Google Scholar page</a>.</p>
-</section>
+<link rel="stylesheet" href="styles.css">
+</head>
 
-<div class="section ablog__blog_comments">
-  
-  
-</div>
+<body class="nav-fixed">
 
-                </article>
-              
-              
-              
-              
-              
-            </div>
-            
-            
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="tocsection sourcelink">
-    <a href="_sources/index.rst.txt">
-      <i class="fa-solid fa-file-lines"></i> Show Source
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./_static/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Poromics Lab</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pages/about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Poromics Lab</h1>
 </div>
 
-</div></div>
-              
-            
-          </div>
-          <footer class="bd-footer-content">
-            
-          </footer>
-        
-      </main>
-    </div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
   
-  <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
-  <footer class="bd-footer">
-<div class="bd-footer__inner bd-page-width">
-  
-    <div class="footer-items__start">
-      
-        <div class="footer-item">
-  <p class="copyright">
-    
-      © Copyright 2021, PMEAL Team.
-      <br/>
-    
-  </p>
-</div>
-      
-        <div class="footer-item">
-  <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
-    <br/>
-  </p>
-</div>
-      
-    </div>
-  
-  
-  
-    <div class="footer-items__end">
-      
-        <div class="footer-item"><p class="theme-version">
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.1.
-</p></div>
-      
-    </div>
-  
-</div>
+</header>
 
-  </footer>
-  </body>
-</html>
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
