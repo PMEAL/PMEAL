@@ -1,1 +1,1 @@
-Sitemap: https://github.com/PMEAL/PMEAL/sitemap.xml
+Sitemap: https://pmeal.com/sitemap.xml
