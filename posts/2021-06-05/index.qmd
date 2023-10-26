@@ -1,6 +1,0 @@
----
-title: "Blank for Now"
-author: "Jeff Gostick"
-date: "June 5, 2021"
-categories: [news]
----
