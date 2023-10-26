@@ -28,34 +28,6 @@
     "text": "One of the ongoing challenges when studying novel, atypical, or non-conventional porous materials is a lack of standard tools for measuring their structural and transport properties. The porous media literature is filled with solutions for rock cores and sandpacks, but must less has been done toward studying layers of material only 100 um thick, 90% porosity, composed of highly aligned fibers, and so on. The PMEAL Group has a strong track record developing novel experimental protocols and tools for such situations. We recently report a method for measuring effective diffusivity (i.e. tortuosity) using a radial sample holder that requires no sealing gaskets, allowing it’s use on very thin thin layers."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 26, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Poromics Lab",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
@@ -166,5 +138,33 @@
     "title": "Publications",
     "section": "",
     "text": "6\n\n\nGostick JT, Kok MDR, Jervis R. Electrospun Fibrous Mats, in: Album of Porous Media. Médici, E.F., Otero, A.D. Editors. 2023, Springer.\nLinks: Publisher Site\n\n\n\n\n5\n\n\nSecannel M, Garcia-Salaberri PA, Gostick JT. Porous Electrodes for PEM Fuel Cells and Electrolyzers, in Encyclopedia of Energy Storage. M. Guarnieri, Editor. 2021. Elsevier: Amsterdam.\nLinks: Publisher Site\n\n\n\n\n4\n\n\nAmini K, Sadeghi MA, Pritzker MD and Gostick JT*, Porous Electrodes for Redox Flow Batteries, in Encyclopedia of Energy Storage. M. Guarnieri, Editor. 2021. Elsevier: Amsterdam.\nLinks: Publisher Site\n\n\n\n\n3\n\n\nGostick JT. Strain, Force, and Mass, in Experimental Methods and Instrumentation for Chemical Engineers. G. Patience, Editor. 2016. Elsevier: Amsterdam.\n\n\n\n\n2\n\n\nGostick JT, Ioannidis MA, Pritzker MD, and Fowler MW. Porosimetry and Characterization of the Capillary Properties of Gas Diffusion Media, in Handbook of PEM Fuel Cell Durability, H. Wang, X.-Z. Yuan, and H. Li, Editors. 2011, Taylor Francis: Baton Rouge.\n\n\n\n\n1\n\n\nGostick JT, Ioannidis MA, Pritzker MD, Fowler MW. Characterization of the Capillary Properties of Gas Diffusion Media, in Modern Aspects of Electrochemistry, C.Y. Wang and U. Pasaogullari, Editors. 2010, Springer: Berlin."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Poromics Lab",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 26, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
