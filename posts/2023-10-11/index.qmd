@@ -1,5 +1,5 @@
 ---
-title: "Blank for Now"
+title: "4-Phase Pore Network Model of a Fuel Cell Catalyst Layer"
 author: "Jeff Gostick"
 date: "October 11, 2023"
 categories: [news]
