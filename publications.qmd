@@ -22,17 +22,6 @@
 <td>##</td>
 <td>
 
-Khan ZA, Gostick JT.  Enhancing Pore Network Extraction Performance via Seed-Based Pore Region Growing Segmentation. Advances in Water Resources.
-
-Links: <a href="https://doi.org/10.1016/j.advwatres.2023.104591" target="_blank" rel="noopener noreferrer">Publisher Site</a>
-
-</td>
-</tr> 
-
-<tr>
-<td>##</td>
-<td>
-
 Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
 
 Links: 
@@ -48,6 +37,17 @@ Links:
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>98</td>
+<td>
+
+Khan ZA, Gostick JT.  Enhancing Pore Network Extraction Performance via Seed-Based Pore Region Growing Segmentation. Advances in Water Resources.  183(1), 104591 (2024)
+
+Links: <a href="https://doi.org/10.1016/j.advwatres.2023.104591" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
 
 <tr>
 <td>97</td>
