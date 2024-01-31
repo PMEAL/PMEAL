@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -94,16 +101,43 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./_static/logo.png" alt="" class="navbar-logo">
     </a>
@@ -115,29 +149,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -150,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -174,34 +208,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1696982400000" data-listing-file-modified-sort="1701420103555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1696982400000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="842">
 <div class="thumbnail">
-<p><a href="./posts/2023-10-11/index.html"> <img src="./_static/images/tomography-4phase-all-net2.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2023-10-11/index.html" class="no-external"></a></p><a href="./posts/2023-10-11/index.html" class="no-external">
+<p><img src="./_static/images/tomography-4phase-all-net2.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-10-11/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-10-11/index.html">
 <h3 class="no-anchor listing-title">
-4-Phase Pore Network Model of a Fuel Cell Catalyst Layer
+<a href="./posts/2023-10-11/index.html" class="no-external">4-Phase Pore Network Model of a Fuel Cell Catalyst Layer</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-10-11/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2023-10-11/index.html">
 <div class="listing-description">
-A few days ago our lastest paper went “live” in Applied Energy. I don’t normally post announcements about this sort of thing, but this case is noteworthy. Firstly, it’s a really great paper, with contributions from more collaborators…
+<a href="./posts/2023-10-11/index.html" class="no-external">A few days ago our lastest paper went “live” in Applied Energy. I don’t normally post announcements about this sort of thing, but this case is noteworthy. Firstly, it’s a…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-11/index.html">
+<a href="./posts/2023-10-11/index.html" class="no-external">
 <div class="listing-date">
 Oct 11, 2023
 </div>
@@ -211,32 +244,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1671840000000" data-listing-file-modified-sort="1701420103555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1671840000000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
 <div class="thumbnail">
-<p><a href="./posts/2022-12-24/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2022-12-24/index.html" class="no-external"></a></p><a href="./posts/2022-12-24/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-12-24/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-12-24/index.html">
 <h3 class="no-anchor listing-title">
-Congratulations to Niloo for successfully defending her PhD!
+<a href="./posts/2022-12-24/index.html" class="no-external">Congratulations to Niloo for successfully defending her PhD!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-12-24/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2022-12-24/index.html">
 <div class="listing-description">
-Niloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th. It…
+<a href="./posts/2022-12-24/index.html" class="no-external">Niloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th. It…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-12-24/index.html">
+<a href="./posts/2022-12-24/index.html" class="no-external">
 <div class="listing-date">
 Dec 24, 2022
 </div>
@@ -246,32 +277,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1665360000000" data-listing-file-modified-sort="1701420103551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1665360000000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1668">
 <div class="thumbnail">
-<p><a href="./posts/2022-10-10/index.html"> <p class="card-img-top"><img src="_static/images/openpnm-star-history-20221010.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2022-10-10/index.html" class="no-external"></a></p><a href="./posts/2022-10-10/index.html" class="no-external">
+<p class="card-img-top"><img src="_static/images/openpnm-star-history-20221010.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-10-10/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-10-10/index.html">
 <h3 class="no-anchor listing-title">
-What’s New in OpenPNM V3
+<a href="./posts/2022-10-10/index.html" class="no-external">What’s New in OpenPNM V3</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-10-10/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2022-10-10/index.html">
 <div class="listing-description">
-It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last…
+<a href="./posts/2022-10-10/index.html" class="no-external">It’s been a long process, much longer than we would’ve liked, but OpenPNM Version 3.0 is finally here. Version 2.0 was released in August 2018, and version 2.8.2, the last…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-10-10/index.html">
+<a href="./posts/2022-10-10/index.html" class="no-external">
 <div class="listing-date">
 Oct 10, 2022
 </div>
@@ -281,32 +310,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1654214400000" data-listing-file-modified-sort="1701420103551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1654214400000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-03/index.html"> <img src="./posts/2022-06-03/cover_image.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-06-03/index.html" class="no-external"></a></p><a href="./posts/2022-06-03/index.html" class="no-external">
+<p><img src="./posts/2022-06-03/cover_image.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-03/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-03/index.html">
 <h3 class="no-anchor listing-title">
-PMEAL Members Represent Strong at CRSC 2022
+<a href="./posts/2022-06-03/index.html" class="no-external">PMEAL Members Represent Strong at CRSC 2022</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-03/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2022-06-03/index.html">
 <div class="listing-description">
-The 4th annual Canadian Research Software Conference was held earlier this week. Several members of the PMEAL group were present, and for the 4th straight year we won a top poster award! Congratulations to Niloo for her hard…
+<a href="./posts/2022-06-03/index.html" class="no-external">The 4th annual Canadian Research Software Conference was held earlier this week. Several members of the PMEAL group were present, and for the 4th straight year we won a top…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-03/index.html">
+<a href="./posts/2022-06-03/index.html" class="no-external">
 <div class="listing-date">
 Jun 3, 2022
 </div>
@@ -316,32 +343,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="news" data-listing-date-sort="1644364800000" data-listing-file-modified-sort="1701420103551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="4" data-categories="news" data-listing-date-sort="1644364800000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="549">
 <div class="thumbnail">
-<p><a href="./posts/2022-02-09/index.html"> <img src="./posts/2022-02-09/cover_image.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2022-02-09/index.html" class="no-external"></a></p><a href="./posts/2022-02-09/index.html" class="no-external">
+<p><img src="./posts/2022-02-09/cover_image.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-02-09/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-02-09/index.html">
 <h3 class="no-anchor listing-title">
-Adding Gravity to Image Based Drainage Simulations
+<a href="./posts/2022-02-09/index.html" class="no-external">Adding Gravity to Image Based Drainage Simulations</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-02-09/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2022-02-09/index.html">
 <div class="listing-description">
-The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called <em>morphological…</em><em></em><code></code><code></code><code></code>
+<a href="./posts/2022-02-09/index.html" class="no-external">The PMEAL team recently developed a way to add gravitational effects to the standard drainage simulation algorithm based on sphere insertion, also sometimes called <em>morphologi…</em><em></em><code></code><code></code><code></code></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-02-09/index.html">
+<a href="./posts/2022-02-09/index.html" class="no-external">
 <div class="listing-date">
 Feb 9, 2022
 </div>
@@ -351,32 +376,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1639440000000" data-listing-file-modified-sort="1701420103551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1639440000000" data-listing-file-modified-sort="1706726974628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <div class="thumbnail">
-<p><a href="./posts/2021-12-14/index.html"> <img src="./posts/2021-12-14/cover_image.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2021-12-14/index.html" class="no-external"></a></p><a href="./posts/2021-12-14/index.html" class="no-external">
+<p><img src="./posts/2021-12-14/cover_image.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-12-14/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-12-14/index.html">
 <h3 class="no-anchor listing-title">
-Prof Gostick presents new image-based invasion algorithm at AGU21
+<a href="./posts/2021-12-14/index.html" class="no-external">Prof Gostick presents new image-based invasion algorithm at AGU21</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-12-14/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2021-12-14/index.html">
 <div class="listing-description">
-The annual fall meeting of the Americal Geophysical Union (aka AGU) is underway this week. The PMEAL group gave a talk about our new image-based invasion algorithm that…
+<a href="./posts/2021-12-14/index.html" class="no-external">The annual fall meeting of the Americal Geophysical Union (aka AGU) is underway this week. The PMEAL group gave a talk about our new image-based invasion algorithm that…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-12-14/index.html">
+<a href="./posts/2021-12-14/index.html" class="no-external">
 <div class="listing-date">
 Dec 14, 2021
 </div>
@@ -386,32 +409,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="news" data-listing-date-sort="1638835200000" data-listing-file-modified-sort="1701420103547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="news" data-listing-date-sort="1638835200000" data-listing-file-modified-sort="1706726974624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <div class="thumbnail">
-<p><a href="./posts/2021-12-07/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2021-12-07/index.html" class="no-external"></a></p><a href="./posts/2021-12-07/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-12-07/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-12-07/index.html">
 <h3 class="no-anchor listing-title">
-Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor
+<a href="./posts/2021-12-07/index.html" class="no-external">Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-12-07/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2021-12-07/index.html">
 <div class="listing-description">
-The Department of Chemical Engineering recently received a generous donation from a former PhD…
+<a href="./posts/2021-12-07/index.html" class="no-external">The Department of Chemical Engineering recently received a generous donation from a former PhD student, Dr.&nbsp;Mohamed Azzam. Dr.&nbsp;Azzam undertook his PhD studies under…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-12-07/index.html">
+<a href="./posts/2021-12-07/index.html" class="no-external">
 <div class="listing-date">
 Dec 7, 2021
 </div>
@@ -421,32 +442,30 @@ Jeff Gostick
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="news" data-listing-date-sort="1625356800000" data-listing-file-modified-sort="1701420103547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="news" data-listing-date-sort="1625356800000" data-listing-file-modified-sort="1706726974624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
 <div class="thumbnail">
-<p><a href="./posts/2021-07-04/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2021-07-04/index.html" class="no-external"></a></p><a href="./posts/2021-07-04/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-07-04/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-07-04/index.html">
 <h3 class="no-anchor listing-title">
-PMEAL Blog and Website now hosted on Github Pages
+<a href="./posts/2021-07-04/index.html" class="no-external">PMEAL Blog and Website now hosted on Github Pages</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-07-04/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/2021-07-04/index.html">
 <div class="listing-description">
-We used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress. A few months we updated the PoreSpy website/landing page…
+<a href="./posts/2021-07-04/index.html" class="no-external">We used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress. A few months we updated the PoreSpy website/landing page…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-07-04/index.html">
+<a href="./posts/2021-07-04/index.html" class="no-external">
 <div class="listing-date">
 Jul 4, 2021
 </div>
@@ -540,10 +559,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -553,8 +571,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -567,6 +594,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -610,6 +756,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -635,6 +782,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -695,6 +868,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
