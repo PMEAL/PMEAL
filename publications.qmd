@@ -18,6 +18,18 @@
 <table width="100%">
 <tbody>
 
+
+<tr>
+<td>##</td>
+<td>
+
+Ly S, Sadeghi MA, Misaghian N, Fathiannasab H, Gostick JT.  Rapid prediction of particle-scale state-of-lithiation in Li-ion battery microstructures using convolutional neural networks. Applied Energy.
+
+Links: 
+
+</td>
+</tr> 
+
 <tr>
 <td>##</td>
 <td>
