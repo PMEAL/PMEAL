@@ -23,17 +23,6 @@
 <td>##</td>
 <td>
 
-Ly S, Sadeghi MA, Misaghian N, Fathiannasab H, Gostick JT.  Rapid prediction of particle-scale state-of-lithiation in Li-ion battery microstructures using convolutional neural networks. Applied Energy.
-
-Links: 
-
-</td>
-</tr> 
-
-<tr>
-<td>##</td>
-<td>
-
 Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
 
 Links: 
@@ -49,6 +38,17 @@ Links:
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>99</td>
+<td>
+
+Ly S, Sadeghi MA, Misaghian N, Fathiannasab H, Gostick JT.  Rapid prediction of particle-scale state-of-lithiation in Li-ion battery microstructures using convolutional neural networks. Applied Energy. 360, 122803 (2024)
+
+Links: 
+
+</td>
+</tr> 
 
 <tr>
 <td>98</td>
