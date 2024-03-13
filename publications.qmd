@@ -23,9 +23,7 @@
 <td>##</td>
 <td>
 
-Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
-
-Links: 
+None at the moment
 
 </td>
 </tr> 
@@ -38,6 +36,17 @@ Links:
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>100</td>
+<td>
+
+Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
+
+Links: <a href="https://doi.org/10.5334/jors.403" target="_blank" rel="noopener noreferrer">Publisher Site (Open Access)</a>
+
+</td>
+</tr> 
 
 <tr>
 <td>99</td>
