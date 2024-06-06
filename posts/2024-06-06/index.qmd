@@ -6,7 +6,7 @@ categories: [news]
 image: cover.png
 ---
 
-Today we pushed our preprint to the [Ar$\chi$iv](https://arxiv.org/abs/2406.02895), so can show off our great new "Queue-Based Invasion Percolation" algorithm (QBIP) while we wait for the peer review process to run its course. 
+Today we pushed our preprint to the [Ar$\chi$iv](https://arxiv.org/abs/2406.02895), so we can show off our great new "Queue-Based Invasion Percolation" algorithm (QBIP) while we wait for the peer review process to run its course. 
 
 To appreciate this new algorithm requires some backstory:  In 2022 we published a paper in [Water Resources Research](https://doi.org/10.1029/2021WR031509) describing a modified version of the classic [Morphological Image Opening](https://doi.org/10.1007/BF00616924) approach that included the effect of gravity on the fluid.  Around the same time we published a paper in [Computers and the Geosciences](https://doi.org/10.1016/j.cageo.2021.104978) where we used image-based tools to simulate the volume controlled invasion of a non-wetting fluid.  This algorithm differed from the the traditional Image Morphology approaches because it followed a volume-controlled rather than a pressure controlled invasion.  The allowed it to simulate entire invasion path rather than just providing the stable fluid configuration at discrete pressures.  The animation below illustrates the output of the volume-controlled approach:
 
