@@ -9,3 +9,6 @@ jupyter_execute
 /.quarto/
 .quarto
 
+.Rproj.user
+.Rhistory
+*.Rproj
