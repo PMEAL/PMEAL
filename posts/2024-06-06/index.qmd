@@ -3,7 +3,7 @@ title: "Introducing QBIP: a new image-based fluid invasion algorithm including g
 author: "Jeff Gostick"
 date: "June 5, 2024"
 categories: [news]
-image: ../../_static/images/tomography-4phase-all-net2.png
+image: cover.png
 ---
 
 Today we pushed our preprint to the [Ar$\chi$iv](https://arxiv.org/abs/2406.02895), so can show off our great new "Queue-Based Invasion Percolation" algorithm (QBIP) while we wait for the peer review process to run its course. 
@@ -19,6 +19,8 @@ Now getting to the exciting part of this announcement: we have now combined the 
 In the above animation you can see that the invading fluid is being impacted by gravity, resulting in a flatter invasion front. Instead of invading a large throat at a high elevation in the image, the fluid prefers to invade a smaller opening near the bottom because it does not have to overcome the effect of gravity. 
 
 Another *very* nice feature of the QBIP algorithm is that it is at leat 10X faster than the original IBIP. We were able to achieve this by using a priorty queue to keep track of which voxel to invade next rather than searching for it on each step.  So not only does the new QBIP algorithm yield fluid invasion paths under the influence of gravity (or not), but it can also do this in a *much* more reasonable time.
+
+![](timing.png)
 
 This work was a collaboration between the [PMEAL](https://www.pmeal.com) group at the University of Waterloo, and the group of Robin Zhao at McMaster University.  Robin and his team provided the experimental micromodel data which was used to validate the model.  It was great to work with them and given how close they are, I'm sure we'll be doing more collaboration soon.
 
