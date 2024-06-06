@@ -197,6 +197,7 @@ window.Quarto = {
 <p><img src="image_based_ip_w_gravity.gif" class="img-fluid"></p>
 <p>In the above animation you can see that the invading fluid is being impacted by gravity, resulting in a flatter invasion front. Instead of invading a large throat at a high elevation in the image, the fluid prefers to invade a smaller opening near the bottom because it does not have to overcome the effect of gravity.</p>
 <p>Another <em>very</em> nice feature of the QBIP algorithm is that it is at leat 10X faster than the original IBIP. We were able to achieve this by using a priorty queue to keep track of which voxel to invade next rather than searching for it on each step. So not only does the new QBIP algorithm yield fluid invasion paths under the influence of gravity (or not), but it can also do this in a <em>much</em> more reasonable time.</p>
+<p><img src="timing.png" class="img-fluid"></p>
 <p>This work was a collaboration between the <a href="https://www.pmeal.com">PMEAL</a> group at the University of Waterloo, and the group of Robin Zhao at McMaster University. Robin and his team provided the experimental micromodel data which was used to validate the model. It was great to work with them and given how close they are, I’m sure we’ll be doing more collaboration soon.</p>
 <p>Anyway, we hope you find this new algorithm useful.</p>
 
