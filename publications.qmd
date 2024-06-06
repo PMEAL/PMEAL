@@ -18,13 +18,12 @@
 <table width="100%">
 <tbody>
 
+
 <tr>
 <td>##</td>
 <td>
 
-Burton N, Abdala A, Zarshenas K, Ghanbari S, Somvanshi C, Gostick JT, Pope MA. Unleashing the Potential of Scalable, High-Water Vapour Permeance Graphene Oxide Membranes using Electrospun Supports. Journal of Membrane Science.
-
-Links: 
+None at the moment
 
 </td>
 </tr> 
@@ -39,10 +38,54 @@ Links:
 <tbody>
 
 <tr>
+<td>100</td>
+<td>
+
+Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
+
+Links: <a href="https://doi.org/10.5334/jors.403" target="_blank" rel="noopener noreferrer">Publisher Site (Open Access)</a>
+
+</td>
+</tr> 
+
+<tr>
+<td>99</td>
+<td>
+
+Ly S, Sadeghi MA, Misaghian N, Fathiannasab H, Gostick JT.  Rapid prediction of particle-scale state-of-lithiation in Li-ion battery microstructures using convolutional neural networks. Applied Energy. 360, 122803 (2024)
+
+Links: <a href="https://doi.org/10.1016/j.apenergy.2024.122803" target="_blank" rel="noopener noreferrer">Publisher Site (Open Access)</a>
+
+</td>
+</tr> 
+
+<tr>
+<td>98</td>
+<td>
+
+Khan ZA, Gostick JT.  Enhancing Pore Network Extraction Performance via Seed-Based Pore Region Growing Segmentation. Advances in Water Resources.  183(1), 104591 (2024)
+
+Links: <a href="https://doi.org/10.1016/j.advwatres.2023.104591" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+
+<tr>
+<td>97</td>
+<td>
+
+Burton N, Abdala A, Zarshenas K, Ghanbari S, Somvanshi C, Gostick JT, Pope MA. Unleashing the Potential of Scalable, High-Water Vapour Permeance Graphene Oxide Membranes using Electrospun Supports. Journal of Membrane Science. 690(1), 122142 (2024)
+
+Links: <a href="https://doi.org/10.1016/j.memsci.2023.122142" target="_blank" rel="noopener noreferrer">Publisher Site</a>
+
+</td>
+</tr> 
+
+<tr>
 <td>96</td>
 <td>
            
-Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT*. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy. 353(A), 122004 (2024).
+Sadeghi MA, Khan ZA, Agnaou M, Hu L, Litster S, Kongkanand A, Padgett E, Muller DA, Friscic T, Gostick JT*. Predicting PEMFC performance from a volumetric image of catalyst layer structure using pore network modeling. Applied Energy. 353(A), 122004 (2024)
 
 Links: <a href="https://doi.org/10.1016/j.apenergy.2023.122004" target="_blank" rel="noopener noreferrer">Publisher Site</a>
 
