@@ -62,7 +62,7 @@ Links: [Preprint on ChemarXiv](https://doi.org/10.26434/chemrxiv-2024-p63jh)
 <td>100</td>
 <td>
 
-Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software.
+Bell E, Morris DRP, Sadeghi MA, Gostick JT.  BEaTmap: Simplified rigorous BET analysis of isothermal adsorption data. Journal of Open Research Software. 12(1), 5-12 (2024)
 
 Links: <a href="https://doi.org/10.5334/jors.403" target="_blank" rel="noopener noreferrer">Publisher Site (Open Access)</a>
 
