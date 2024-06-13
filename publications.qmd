@@ -28,15 +28,6 @@ Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue
 </tr> 
 
 
-<tr>
-<td>02</td>
-<td>
-
-Alizadeh M, Gostick JT, Suzuki T, Tsushima S. Topological optimization for tailored designs of advection-diffusion-reaction porous reactors based on pore scale modeling and simulation. [ChemarXiv](https://doi.org/10.26434/chemrxiv-2024-p63jh)
-
-</td>
-</tr> 
-
 </tbody>
 </table>
 
