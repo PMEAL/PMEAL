@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="prof.-gosticks-bio">Prof.&nbsp;Gostick’s Bio</h2>
 <img style="float: left; padding: 3px 10px 1px 1px;" src="_static/images/Gostick-headshot-2019.jpg" width="25%" align="left">
 <p>
-Professor Jeff Gostick is the Azzam-Dullien Professor of Chemical Engineering at the University of Waterloo, where he runs the Porous Materials Engineering &amp; Analysis Lab. Prior to joining UofW he was an Associate Professor in Chemical Engineering at McGill University in Montreal from 2010 to 2016. His PhD work focused on multiphase transport phenomena in hydrogen fuel cells. Upon completion of his PhD from the University of Waterloo in 2008 he did post-doctoral work at with the US Department of Energy at the Lawrence Berkeley National Lab, where he used the ALS synchrotron to perform ‘cat scans’ on electrodes, which led to his current interest in volumetric image analysis. He is the lead developer of the open-source pore network modeling projects <a href="https://openpnm.org">OpenPNM</a> and <a href="https://porespy.org">PoreSpy</a>, both of which focus on understanding transport pheneomena at the pore-scale. Prof Gostick was recently named an Emerging Leader by the Canadian Society of Chemical Engineering, and was honored with Azzam-Dullien Professorship in 2022. With the help of his current and former graduate students, which include 12 PhD and 23 Master’s students, he has published over 100 peer-reviewed journal articles, 6 book chapters,and given hundreds of talks at international conferences.
+Professor Jeff Gostick is the Azzam-Dullien Professor of Chemical Engineering at the University of Waterloo, where he runs the Porous Materials Engineering &amp; Analysis Lab. Prior to joining UofW he was a Professor in Chemical Engineering at McGill University in Montreal from 2010 to 2016. His PhD work focused on multiphase transport phenomena in hydrogen fuel cells. Upon completion of his PhD from the University of Waterloo in 2008 he did post-doctoral work at Lawrence Berkeley National Lab, where he used the ALS synchrotron to perform ‘cat scans’ on electrodes, which led to his current interest in volumetric image analysis. He is the lead developer of the open-source software projects <a href="https://openpnm.org">OpenPNM</a> and <a href="https://porespy.org">PoreSpy</a>, both of which focus on understanding transport phenomena in porous materials at the pore-scale. Prof Gostick was named an Emerging Leader by the Canadian Society of Chemical Engineering in 2019, and was honored with the Azzam-Dullien Professorship in Transport in Porous Media in 2022. With the help of his current and former graduate students, which include dozens of PhD and Master’s students, he has published over 100 peer-reviewed journal articles, 6 book chapters, and given hundreds of talks at conferences around the world.
 </p>
 
 
@@ -195,18 +195,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -238,7 +227,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/pmeal\.com");
@@ -246,7 +257,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
