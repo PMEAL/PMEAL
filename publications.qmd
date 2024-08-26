@@ -22,7 +22,9 @@
 <td>01</td>
 <td>
 
-Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. [ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
+Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. 
+
+Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
 
 </td>
 </tr> 
@@ -37,14 +39,11 @@ Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue
 <table width="100%">
 <tbody>
 
-
 <tr>
-<td>##</td>
+<td>01</td>
 <td>
 
-Alizadeh, M, Gostick JT, Suzuki T, Tsushima S. Topological optimization for tailored designs of advection-diffusion-reaction porous reactors based on pore scale modeling and simulation. Computers & Structures.
-
-Links: [Preprint on ChemarXiv](https://doi.org/10.26434/chemrxiv-2024-p63jh)
+Yu H, Pritzker MD, Gostick JT. Improving Performance of Hybrid Zn-Ce Redox Flow Battery by Controlling Ion Crossover and Use of Mixed Acid Positive Electrolyte. Journal of Applied Electrochemistry.
 
 </td>
 </tr> 
@@ -57,6 +56,17 @@ Links: [Preprint on ChemarXiv](https://doi.org/10.26434/chemrxiv-2024-p63jh)
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>101</td>
+<td>
+
+Alizadeh, M, Gostick JT, Suzuki T, Tsushima S. Topological optimization for tailored designs of advection-diffusion-reaction porous reactors based on pore scale modeling and simulation. Computers & Structures. 301(9), 107452 (2024)
+
+Links: [Publisher Site](https://doi.org/10.1016/j.compstruc.2024.107452) | [Preprint on ChemarXiv](https://doi.org/10.26434/chemrxiv-2024-p63jh)
+
+</td>
+</tr> 
 
 <tr>
 <td>100</td>
