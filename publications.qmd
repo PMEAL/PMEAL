@@ -18,17 +18,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>01</td>
-<td>
-
-Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. 
-
-Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
-
-</td>
-</tr> 
-
+None at the moment
 
 </tbody>
 </table>
@@ -38,6 +28,17 @@ Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
 
 <table width="100%">
 <tbody>
+
+<tr>
+<td>02</td>
+<td>
+
+Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. Advances in Water Resources.
+
+Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
+
+</td>
+</tr> 
 
 <tr>
 <td>01</td>
