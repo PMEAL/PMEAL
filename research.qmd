@@ -6,7 +6,7 @@ In the Porous Materials Engineering and Analysis Lab (PMEAL) we study structural
 ## Model
 ![](_static/images/openpnm_example.png)
 
-The PMEAL group is the lead developer of the <a href="http://openpnm.org" target="_blank" rel="noopener noreferrer">OpenPNM</a> package for performing pore network modeling of porous materials. This package is now fairly mature and is being used by a number of research groups around the world. OpenPNM has been awarded multiple grants from <a href="http://www.canarie.ca" target="_blank" rel="noopener noreferrer">CANARIE</a> to enhance the packagr.
+The PMEAL group is the lead developer of the <a href="http://openpnm.org" target="_blank" rel="noopener noreferrer">OpenPNM</a> package for performing pore network modeling of porous materials. This package is now fairly mature and is being used by a number of research groups around the world. OpenPNM has been awarded multiple grants from <a href="http://www.canarie.ca" target="_blank" rel="noopener noreferrer">CANARIE</a> to enhance the package.
 
 ![](_static/images/psd_and_hist.png)
 
@@ -22,12 +22,12 @@ Direct numerical simulation on 3D voxel-based images is becoming increasingly co
 
 ![](_static/images/electrospun.png)
 
-Electrospinning is an old technique that is seeing new life in the past decade due to its ability to make a very wide range of interesting fibrous materials. PMEAL has been utilizing this technique to produce optimized electrodes for flow batteries. Compared to commercially available materials, the target material has smaller fibers for increased surface area and high porosity to enhance the permeability. This image shows commercial materials with 10 um diameter fibers, compared to our electrospun materials with 1 um diameter fibers. The much smaller fiber size has shown to be highly advantageous for in-situ flow battery performance, as outlined in our recent publication.
+Electrospinning is an old technique that is seeing new life in the past decade due to its ability to make a very wide range of interesting fibrous materials. PMEAL has been utilizing this technique to produce optimized electrodes for flow batteries. Compared to commercially available materials, the target material has smaller fibers for increased surface area and high porosity to enhance the permeability. This image shows commercial materials with 10 um diameter fibers, compared to our electrospun materials with 1 um diameter fibers. The much smaller fiber size has shown to be highly advantageous for in-situ flow battery performance, as outlined in our recent publications.
 
 <hr>
 
 ## Measure
 
-One of the ongoing challenges when studying novel, atypical, or non-conventional porous materials is a lack of standard tools for measuring their structural and transport properties.  The porous media literature is filled with solutions for rock cores and sandpacks, but must less has been done toward studying layers of material only 100 um thick, 90% porosity, composed of highly aligned fibers, and so on.  The PMEAL Group has a strong track record developing novel experimental protocols and tools for such situations.  We recently report a method for measuring effective diffusivity (i.e. tortuosity) using a radial sample holder that requires no sealing gaskets, allowing it's use on very thin thin layers.
+One of the ongoing challenges when studying novel, atypical, or non-conventional porous materials is a lack of standard tools for measuring their structural and transport properties.  The porous media literature is filled with solutions for rock cores and sandpacks, but much less has been done toward studying materials that are only 100 um thick, 90% porosity, composed of highly aligned fibers, and so on.  The PMEAL Group has a strong track record developing novel experimental protocols and tools for such situations.  We recently reported a method for measuring effective diffusivity (i.e. tortuosity) using a radial sample holder that requires no sealing gaskets, allowing its use on very thin layers.
 
 ![](_static/images/tortuosity-results.png)
