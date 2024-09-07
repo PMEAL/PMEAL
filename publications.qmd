@@ -29,6 +29,20 @@ None at the moment
 <table width="100%">
 <tbody>
 
+
+<tr>
+<td>03</td>
+<td>
+
+Rahman Y, Gostick JT, Ioannidis MA. Nanoparticle Transport in Partially Saturated Porous Media: Attachment at Fluid Interfaces. Advances in Water Resources.
+
+Links: 
+
+</td>
+</tr> 
+
+
+
 <tr>
 <td>02</td>
 <td>
