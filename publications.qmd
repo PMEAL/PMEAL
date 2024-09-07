@@ -60,6 +60,7 @@ Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895) | [Publish
 
 Yu H, Pritzker MD, Gostick JT. Improving Performance of Hybrid Zn-Ce Redox Flow Battery by Controlling Ion Crossover and Use of Mixed Acid Positive Electrolyte. Journal of Applied Electrochemistry.
 
+Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-4535713) | [Publisher Site (Open Access)](https://doi.org/10.1007/s10800-024-02193-x)
 </td>
 </tr> 
 
