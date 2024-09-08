@@ -18,7 +18,7 @@ website:
 
 format:
   html:
-    theme: materia
+    theme: material
     toc: true
 
 resources:
