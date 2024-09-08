@@ -11,8 +11,6 @@ website:
     sort: "date desc"
     type: default
     categories: true
-    feed:
-      categories: [news, posts]
   navbar:
     logo: _static/logo.png  
     left:
