@@ -6,6 +6,13 @@ execute:
 
 website:
   title: ""
+  listing:
+    contents: posts
+    sort: "date desc"
+    type: default
+    categories: true
+    feed:
+      categories: [news, posts]
   navbar:
     logo: _static/logo.png  
     left:
@@ -15,6 +22,9 @@ website:
       - research.qmd
       - blog.qmd
       - about.qmd
+    right:
+      - icon: rss
+        href: index.xml
 
 format:
   html:
