@@ -31,7 +31,7 @@ None at the moment
 
 
 <tr>
-<td>03</td>
+<td>02</td>
 <td>
 
 Rahman Y, Gostick JT, Ioannidis MA. Nanoparticle Transport in Partially Saturated Porous Media: Attachment at Fluid Interfaces. Advances in Water Resources.
@@ -41,18 +41,6 @@ Links:
 </td>
 </tr> 
 
-
-
-<tr>
-<td>02</td>
-<td>
-
-Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. Advances in Water Resources.
-
-Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895) | [Publisher Site (Open Access)](https://doi.org/10.1016/j.advwatres.2024.104799)
-
-</td>
-</tr> 
 
 <tr>
 <td>01</td>
@@ -72,6 +60,17 @@ Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-45
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>102</td>
+<td>
+
+Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. Advances in Water Resources. 193(11) 104799 (2024)
+
+Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895) | [Publisher Site (Open Access)](https://doi.org/10.1016/j.advwatres.2024.104799)
+
+</td>
+</tr> 
 
 <tr>
 <td>101</td>
