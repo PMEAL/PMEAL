@@ -28,7 +28,7 @@ website:
 
 format:
   html:
-    theme: material
+    theme: lux
     toc: true
 
 resources:
