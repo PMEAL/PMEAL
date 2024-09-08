@@ -6,11 +6,6 @@ execute:
 
 website:
   title: ""
-  listing:
-    contents: posts
-    sort: "date desc"
-    type: default
-    categories: true
   navbar:
     logo: _static/logo.png  
     left:
