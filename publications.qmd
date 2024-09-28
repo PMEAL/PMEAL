@@ -29,8 +29,6 @@ None at the moment
 <table width="100%">
 <tbody>
 
-""
-
 <tr>
 <td>03</td>
 <td>
@@ -63,7 +61,7 @@ Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-45
 <tbody>
 
 <tr>
-<td103</td>
+<td>103</td>
 <td>
 
 Rahman Y, Gostick JT, Ioannidis MA. Nanoparticle Transport in Partially Saturated Porous Media: Attachment at Fluid Interfaces. Advances in Water Resources. 193(11), 104816 (2024)
