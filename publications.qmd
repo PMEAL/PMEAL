@@ -30,16 +30,15 @@ None at the moment
 <tbody>
 
 <tr>
-<td>03</td>
+<td>02</td>
 <td>
 
-Lee KM, Alizadeh M, Suzuki T, Tsushima S, Roberts EPL, Gostick JT. Multiphysics Simulation of Multi-layered Fibrous Electrodes for the Vanadium Redox Flow Battery. Journal of the Electrochemical Society.
+Maier L, Pauly L, Gostick JT, Gresser GT, Nieken U. Spontaneous imbibition in thin anisotropic fibrous media: Experiments and numerical modeling. Textile Research Journal
 
-Links: [Publisher Site (Open access PDF)](https://doi.org/10.1149/1945-7111/ad7c85)
+Links: [Publisher Site ](https://doi.org/10.1177/00405175241268794)
 
 </td>
 </tr> 
-
 
 <tr>
 <td>01</td>
@@ -54,11 +53,21 @@ Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-45
 </tbody>
 </table>
 
-
 ## 2024
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>104</td>
+<td>
+
+Lee KM, Alizadeh M, Suzuki T, Tsushima S, Roberts EPL, Gostick JT. Multiphysics Simulation of Multi-layered Fibrous Electrodes for the Vanadium Redox Flow Battery. Journal of the Electrochemical Society.  171(9) 090534. (2024)
+
+Links: [Publisher Site (Open access PDF)](https://doi.org/10.1149/1945-7111/ad7c85)
+
+</td>
+</tr> 
 
 <tr>
 <td>103</td>
