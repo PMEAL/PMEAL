@@ -15,10 +15,13 @@ website:
       - research.qmd
       - blog.qmd
       - about.qmd
+    right:
+      - icon: rss
+        href: index.xml
 
 format:
   html:
-    theme: materia
+    theme: lux
     toc: true
 
 resources:

@@ -18,17 +18,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>01</td>
-<td>
-
-Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. 
-
-Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
-
-</td>
-</tr> 
-
+None at the moment
 
 </tbody>
 </table>
@@ -40,22 +30,66 @@ Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895)
 <tbody>
 
 <tr>
+<td>02</td>
+<td>
+
+Maier L, Pauly L, Gostick JT, Gresser GT, Nieken U. Spontaneous imbibition in thin anisotropic fibrous media: Experiments and numerical modeling. Textile Research Journal
+
+Links: [Publisher Site ](https://doi.org/10.1177/00405175241268794)
+
+</td>
+</tr> 
+
+<tr>
 <td>01</td>
 <td>
 
 Yu H, Pritzker MD, Gostick JT. Improving Performance of Hybrid Zn-Ce Redox Flow Battery by Controlling Ion Crossover and Use of Mixed Acid Positive Electrolyte. Journal of Applied Electrochemistry.
 
+Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-4535713) | [Publisher Site (Open Access)](https://doi.org/10.1007/s10800-024-02193-x)
 </td>
 </tr> 
 
 </tbody>
 </table>
 
-
 ## 2024
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>104</td>
+<td>
+
+Lee KM, Alizadeh M, Suzuki T, Tsushima S, Roberts EPL, Gostick JT. Multiphysics Simulation of Multi-layered Fibrous Electrodes for the Vanadium Redox Flow Battery. Journal of the Electrochemical Society.  171(9) 090534. (2024)
+
+Links: [Publisher Site (Open access PDF)](https://doi.org/10.1149/1945-7111/ad7c85)
+
+</td>
+</tr> 
+
+<tr>
+<td>103</td>
+<td>
+
+Rahman Y, Gostick JT, Ioannidis MA. Nanoparticle Transport in Partially Saturated Porous Media: Attachment at Fluid Interfaces. Advances in Water Resources. 193(11), 104816 (2024)
+
+Links: [Publisher Site](https://doi.org/10.1016/j.advwatres.2024.104816)
+
+</td>
+</tr> 
+
+<tr>
+<td>102</td>
+<td>
+
+Gostick JT, Misaghian N, Irannezhad A, Zhao B. A computationally efficient queue-based algorithm for simulating volume-controlled drainage under the influence of gravity on volumetric images. Advances in Water Resources. 193(11) 104799 (2024)
+
+Links: [Preprint on ArXiv](https://doi.org/10.48550/arXiv.2406.02895) | [Publisher Site (Open Access)](https://doi.org/10.1016/j.advwatres.2024.104799)
+
+</td>
+</tr> 
 
 <tr>
 <td>101</td>
@@ -148,6 +182,7 @@ Links: <a href="https://doi.org/10.1038/s41598-023-40637-0" target="_blank" rel=
 <tr>
 <td>94</td>
 <td>
+
 Rodriguez de Castro A, Agnaou M, Gostick JT*. Predicting Shear-Thinning Fluid Flows in Porous Media Using Pore Network Modeling: Simulations and Experimental Validation. Transport in Porous Media. 149, 453–478 (2023)
 
 Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
@@ -159,6 +194,7 @@ Links: <a href="https://doi.org/10.1007/s11242-023-01968-8" target="_blank" rel=
 <tr>
 <td>93</td>
 <td>
+
 Misaghian N, Sadeghi MA, Lee KY, Roberts EPL, and Gostick JT*. Utilizing Pore Network Modeling for Performance Analysis of Multi-Layer Electrodes in Vanadium Redox Flow Batteries. Journal of The Electrochemical Society, 170(7) 070520 (2023).
 
 Links: <a href="https://doi.org/10.1149/1945-7111/ace554" target="_blank" rel="noopener noreferrer">Publisher Site</a>
@@ -168,6 +204,7 @@ Links: <a href="https://doi.org/10.1149/1945-7111/ace554" target="_blank" rel="n
 <tr>
 <td>92</td>
 <td>
+
 Lee KM,  Pahlevaninezhad M, Smith V, Abouali S, Orfino FP, Kjeang E, Pope M, Roberts E, Gostick JT*. Improvement of vanadium redox flow battery performance obtained by compression and laser perforation of electrospun electrodes. Materials Today Energy. 35, 101333 (2023).
 
 Links: <a href="https://doi.org/10.1016/j.mtener.2023.101333" target="_blank" rel="noopener noreferrer">Publisher Site</a>  
