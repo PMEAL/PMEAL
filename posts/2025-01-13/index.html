@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jeff Gostick">
-<meta name="dcterms.date" content="2024-11-28">
+<meta name="dcterms.date" content="2025-01-13">
 
 <title>Tips and Tricks</title>
 <style>
@@ -71,10 +71,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5359b888323dbf908b9fd79aa8d2fcd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-27208713591bdc81d15d2ab76ca6d3ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -138,7 +138,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -187,7 +187,39 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tips and Tricks</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+                <div class="quarto-category">tips</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jeff Gostick </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 13, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -203,89 +235,64 @@ window.Quarto = {
   <li><a href="#using-voxelize_volume" id="toc-using-voxelize_volume" class="nav-link" data-scroll-target="#using-voxelize_volume">Using <code>voxelize_volume</code></a></li>
   <li><a href="#using-select_enclosed_points" id="toc-using-select_enclosed_points" class="nav-link" data-scroll-target="#using-select_enclosed_points">Using <code>select_enclosed_points</code></a></li>
   </ul></li>
+  <li><a href="#comparing-the-outputs-of-the-two-methods" id="toc-comparing-the-outputs-of-the-two-methods" class="nav-link" data-scroll-target="#comparing-the-outputs-of-the-two-methods">Comparing the Outputs of the Two Methods</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Tips and Tricks</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">news</div>
-    <div class="quarto-category">tips</div>
-  </div>
-  </div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jeff Gostick </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 28, 2024</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="tips-and-tricks-converting-stl-files-to-voxel-images" class="level1">
 <h1>Tips and Tricks: Converting STL files to voxel images</h1>
-<p><a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a> files are a common way to represent 3D volumes. They are used by 3D printers and CFD models, among others. I was recently handed a batch of STL files by someone that had generated packings of randomly packed particles. They used physics-based simulations to determine where the particles would settle in the packed bed, providing realistic geometries for doing flow simulations. I spent a bit of timing trying to find a simple way to convert these files to the basic voxelized representation that we require for most of our analysis, like <a href="https://doi.org/10.1103/PhysRevE.96.023307">extracting networks</a> for use in <a href="https://openpnm.org">OpenPNM</a>, or <a href="https://doi.org/10.1016/j.advwatres.2024.104799">simulating non-wetting fluid invasion</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a> files are a common way to represent 3D volumes. They are used by 3D printers and CFD models, among others. I was recently handed a batch of STL files by someone that had generated packings of randomly packed particles. They used physics-based simulations to determine where the particles would settle under the influence of gravity, providing realistic geometries for doing flow simulations. I spent a bit of time trying to find a simple way to convert these files to the basic voxelized representation that we require for most of our analysis, like <a href="https://doi.org/10.1103/PhysRevE.96.023307">extracting networks</a> for use in <a href="https://openpnm.org">OpenPNM</a>, or <a href="https://doi.org/10.1016/j.advwatres.2024.104799">simulating non-wetting fluid invasion</a>.</p>
 <p>The solution I found was pretty simple, but I had to piece together several bits of information from different tutorials, so I thought I’d collect it here.</p>
-<p>At first I discovered the <a href="https://pypi.org/project/numpy-stl/">numpy-stl</a> which allowed me to read the files successfully and plot <em>something</em>, but it didn’t seem to offer the tools I needed to <em>convert</em> the data to a voxel image. After some internet searching I (re)discovered <a href="https://pypi.org/project/pyvista/">pyvista</a>, which I don’t regularly use, but this is not the first time it has come to rescue so perhaps I should dig into deeper in the near future.</p>
-<p>Anyway, PyVista offers <em>a lot</em> of tools for converting data around. In fact, the challenge was to determine which of the many tools was best suited to do the job. It was also a bit of a trick to understand the relationship between “point” and “cell” data.</p>
+<p>At first I discovered the <a href="https://pypi.org/project/numpy-stl/">numpy-stl</a> which allowed me to read the files successfully and plot <em>something</em>, but it didn’t seem to offer the tools I needed to <em>convert</em> the data to a voxel image. After some internet searching I (re)discovered <a href="https://pypi.org/project/pyvista/">pyvista</a>, which I don’t regularly use, but this is not the first time it has come to rescue so perhaps I should dig into this package deeper in the near future.</p>
+<p>Anyway, PyVista offers <em>a lot</em> of tools for converting spatial data between formats. In fact, the challenge was to determine which of the many tools was best suited to do the job. It was also a bit of a trick to understand the relationship between “point” and “cell” data, which I’ll explain below.</p>
 <section id="using-pyvista-to-read-stl-files." class="level2">
 <h2 class="anchored" data-anchor-id="using-pyvista-to-read-stl-files.">Using PyVista to <code>read</code> STL files.</h2>
-<p>The first step was easy. PyVista has a top-level function for reading <code>STL</code> files, not surprizingly called <code>read()</code>. This function reads the file and creates a <code>mesh</code> object. Conveniently, the <code>mesh</code> object that its created has a <code>plot</code> method for quick confirmation that things worked:</p>
+<p>The first step was easy. PyVista has a top-level function for reading <code>STL</code> files, not surprizingly called <code>read()</code>. This function reads the file and creates a <code>mesh</code> object. Conveniently, the <code>mesh</code> object has a <code>plot</code> method for quick confirmation that things worked:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyvista <span class="im">as</span> pv</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>mesh <span class="op">=</span> pv.read(<span class="st">'file.stl)</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="er">cpos = mesh.plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="er">mesh.plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="plotted_mesh.png" class="img-fluid"></p>
 </section>
 <section id="voxelizing-the-mesh" class="level2">
 <h2 class="anchored" data-anchor-id="voxelizing-the-mesh">Voxelizing the Mesh</h2>
-<p>Now comes the hard part. We are trying to create a voxel image where each voxel contains a <code>boolean</code> value indicating whether it lies in the void phase or not. This means that we need to decide if a given point in space lies within the mesh or not, in terms of the above image, whether a point lies inside one of the ellipses or not. To do this we first need to define the “points”. Since we want to create a voxel image, these points will be the centers of the voxels, hence lying on a 3D grid. Then we want to ask PyVista to compute whether each point lies inside the mesh or not. There are two ways to do this.</p>
+<p>Now comes the hard part. We are trying to create a voxel image, in the form of a 3D Numpy <code>ndarray</code>, where each voxel contains a <code>boolean</code> value indicating whether it lies in the void phase or not. This means that we need to decide if a given point in space lies within the mesh or not, then assign the corresponding <code>boolean</code> value to the corresponding voxel in the <code>ndarray</code>. In terms of the above image, this means determining whether a point lies inside one of the ellipses or not. To do this we first need to define the “points” that will become the voxels in the final image. Then we want to ask PyVista to compute whether each point lies inside the mesh or not. There are two ways to do this.</p>
 <section id="using-voxelize_volume" class="level3">
 <h3 class="anchored" data-anchor-id="using-voxelize_volume">Using <code>voxelize_volume</code></h3>
-<p>The <em>simplest</em> way is to use the appropriately named <code>voxelize_volume</code> function. This requires we pass in the <code>mesh</code> and also specify the <code>density</code> of the voxelization. The density controls to the number of points that we wish to have in the final image. A lower <code>density</code> means more points, which seems a bit counterintuitive actually. Consider that voxel size is usually expressed as <span class="math inline">\(m/voxel\)</span>, but could just as easily be given as <span class="math inline">\(m^3/voxel\)</span>, which would mean that a smaller number corresponds to higher resolution or more points for a given image. The units of “density” in my experience are usually as “some value per unit volume, so image resolution should be <span class="math inline">\(voxels/m^3\)</span>, in which case a <em>higher</em> value would result in more points. Nonetheless, the function is super helpful so I’ll let this issue slide and thanks the author(s) for their work. Anyway, this function is used as follows:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>vox <span class="op">=</span> pv.voxelize_volume(mesh, density<span class="op">=</span><span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><code>vox</code> is a new <em>mesh</em> object where the triangulated surfaces visible in the original rendering have been replaced with cubic elements. Note that this process is quite slow. It took over 1 hours on one of my rather antiquated workstations to generate a voxel image of size ~400-cubed. Luckily, this process only needs to be done once for each mesh, so waiting overnight for a batch to run is note really too painful.</p>
+<p>The <em>simplest</em> way is to use the appropriately named <code>voxelize_volume</code> function. This requires that we pass in the <code>mesh</code> and also specify the <code>density</code> of the voxelization. The density controls to the number of points that we wish to have in the final image. A lower <code>density</code> means more points, which seems a bit counterintuitive actually. Consider that image resolution is usually given as as a voxel size expressed as <span class="math inline">\(m/voxel\)</span>, but could just as easily be given as <span class="math inline">\(m^3/voxel\)</span>, which would mean that a smaller number corresponds to higher resolution or more points for a given image. The units of “density” in my experience are usually as “some value per unit volume”, so if we wanted to express image resolution as a density it should be <span class="math inline">\(voxels/m^3\)</span>, in which case a <em>higher</em> value would result in more points. In fact, the reason a lower density gives more points is because this value is actually used as a step-size in Numpy’s <code>arange</code> function, like <code>np.arange(start, step, density)</code>; hence a smaller value of density means more points are generated. Nonetheless, the function is super helpful so I’ll let this issue slide and thank the author(s) for their work. Anyway, this function is used as follows:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>vox <span class="op">=</span> pv.voxelize_volume(mesh, density<span class="op">=</span><span class="fl">0.05</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><code>vox</code> is not actually a voxel image (yet). It’s a new <em>mesh</em> object where the triangulated surfaces visible in the original rendering have been replaced with cubic elements. Note that this process is quite slow. It took over an hour on my (admittedly antiquated) workstation to generate a voxel image of size ~400-cubed. Luckily, this process only needs to be done once for each mesh, so waiting overnight for a batch to run is not really too painful.</p>
 <p>The voxelized mesh can be visualized easily as well:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>slices <span class="op">=</span> vox.slice_orthogonal()</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>slices.plot(scalars<span class="op">=</span><span class="st">'InsideMesh'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Which yields the following, where the voxelized nature of the surfaces can seen:</p>
 <p><img src="voxelized.png" class="img-fluid"></p>
-<p>The final step is converting this <code>vox</code> into a Numpy array. The voxelization process not only generates a cubic mesh, but it also determine which voxel represents solid or not. This information is stored on the <code>vox</code> object under the key <code>'InsideMesh'</code>, as a vector containing <code>1</code> for voxels inside the ellipsoids, and <code>0</code> outside. Converting this vector into a cubic image is the last hurdle. We need to <code>reshape</code> it, but we need to determine what shape to use.</p>
-<p>Although the the <code>'InsideMesh'</code> array contains one value for each voxel, the <code>vox</code> mesh itself has coordinates for each <em>corner</em> of each voxel. We can thus determine the number of cells by looking at the number of corners in the mesh (i.e.&nbsp;looking at the shape of <code>vox.x</code>, <code>vox.y</code> or <code>vox.z</code>), <em>then</em> subtracting 1 from each axis, to not count the extra layer of points. Also, we must specify the Fortran ordering of the data using the <code>order='F'</code> option when reshaping:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>im <span class="op">=</span> np.reshape(vox[<span class="st">'InsideMesh'</span>], np.array(vox.meshgrid[<span class="dv">0</span>].shape)<span class="op">-</span><span class="dv">1</span>, order<span class="op">=</span><span class="st">'F'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The result is a standard voxel image in the form of a Numpy array, perfectly suited for simulations.</p>
+<p>The final step is converting this <code>vox</code> mesh object into a Numpy array. The voxelization process not only generates a cubic mesh, but it also determine which voxel represents solid or not. This information is stored on the <code>vox</code> dictionary object under the key <code>'InsideMesh'</code>, as a vector containing <code>1</code> for voxels inside the ellipsoids, and <code>0</code> outside. Converting this vector into a cubic image was the last hurdle. I needed to <code>reshape</code> it from a linear vector into 3D array, but first I needed to determine what shape to use.</p>
+<p>Although the the <code>'InsideMesh'</code> array contains one value for each voxel, the <code>vox</code> mesh itself has coordinates for the <em>corners</em> of each voxel. One can thus determine the number of cells by looking at the number of number of corners defined in the mesh (i.e.&nbsp;looking at the shape of <code>vox.x</code>, <code>vox.y</code> or <code>vox.z</code>), <em>then</em> subtracting 1 from each axis, to not count the extra layer of points at the <em>end</em> of each axis. Also, I learned that it is necessary to specify the Fortran ordering of the data using the <code>order='F'</code> option when reshaping:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>im <span class="op">=</span> np.reshape(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    vox[<span class="st">'InsideMesh'</span>], </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    np.array(vox.meshgrid[<span class="dv">0</span>].shape)<span class="op">-</span><span class="dv">1</span>, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    order<span class="op">=</span><span class="st">'F'</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The result is a standard voxel image in the form of a Numpy <code>ndarray</code>, perfectly suited for simulations.</p>
 <p><img src="ndarray.png" class="img-fluid"></p>
 <p>Given how long the <code>voxelize_volume()</code> function requires, it is probably a good idea to save the array for future use:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>np.save(<span class="st">'stl_as_ndarray'</span>, im)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="using-select_enclosed_points" class="level3">
 <h3 class="anchored" data-anchor-id="using-select_enclosed_points">Using <code>select_enclosed_points</code></h3>
-<p>Although the above method worked great for me, the slowness inspired me to investigate whether an alternative approach might be faster. A bit more searching led to the <a href="https://github.com/pyvista/pyvista/discussions/5652">following function</a>, suggested by Github user <a href="https://github.com/dveni"><span class="citation" data-cites="dveni">@dveni</span></a>:</p>
-<div class="sourceCode" id="annotated-cell-6"><pre class="sourceCode python code-annotation-code code-with-copy code-annotated"><code class="sourceCode python"><span id="annotated-cell-6-1"><a href="#annotated-cell-6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_array(mesh: pv.PolyData, density:<span class="bu">float</span>):</span>
+<p>Although the above method worked great for me, the slowness inspired me to investigate whether an alternative approach might be faster. A bit more searching led to the <a href="https://github.com/pyvista/pyvista/discussions/5652">following solution</a>, suggested by Github user <a href="https://github.com/dveni"><span class="citation" data-cites="dveni">@dveni</span></a>:</p>
+<div class="sourceCode" id="annotated-cell-6"><pre class="sourceCode python code-annotation-code code-with-copy code-annotated"><code class="sourceCode python"><span id="annotated-cell-6-1"><a href="#annotated-cell-6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stl_to_array(mesh: pv.PolyData, density: <span class="bu">float</span>):</span>
 <span id="annotated-cell-6-2"><a href="#annotated-cell-6-2" aria-hidden="true" tabindex="-1"></a>    x_min, x_max, y_min, y_max, z_min, z_max <span class="op">=</span> mesh.bounds</span>
 <span id="annotated-cell-6-3"><a href="#annotated-cell-6-3" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> np.arange(x_min, x_max, density)</span>
 <span id="annotated-cell-6-4"><a href="#annotated-cell-6-4" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> np.arange(y_min, y_max, density)</span>
@@ -296,25 +303,37 @@ window.Quarto = {
 <span id="annotated-cell-6-9"><a href="#annotated-cell-6-9" aria-hidden="true" tabindex="-1"></a>    grid <span class="op">=</span> pv.StructuredGrid(x, y, z)</span>
 <span id="annotated-cell-6-10"><a href="#annotated-cell-6-10" aria-hidden="true" tabindex="-1"></a>    ugrid <span class="op">=</span> pv.UnstructuredGrid(grid)</span>
 <span id="annotated-cell-6-11"><a href="#annotated-cell-6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="annotated-cell-6-12"><a href="#annotated-cell-6-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># get part of the mesh within the mesh's bounding surface.</span></span>
-<span id="annotated-cell-6-13"><a href="#annotated-cell-6-13" aria-hidden="true" tabindex="-1"></a>    selection <span class="op">=</span> ugrid.select_enclosed_points(mesh.extract_surface(),</span>
-<span id="annotated-cell-6-14"><a href="#annotated-cell-6-14" aria-hidden="true" tabindex="-1"></a>                                             tolerance<span class="op">=</span><span class="fl">0.0</span>,</span>
-<span id="annotated-cell-6-15"><a href="#annotated-cell-6-15" aria-hidden="true" tabindex="-1"></a>                                             check_surface<span class="op">=</span><span class="va">False</span>)</span>
-<span id="annotated-cell-6-16"><a href="#annotated-cell-6-16" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> selection[<span class="st">'SelectedPoints'</span>].view(<span class="bu">bool</span>)</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-6-17" class="code-annotation-target"><a href="#annotated-cell-6-17" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> mask.reshape(x.shape, order<span class="op">=</span><span class="st">'F'</span>)</span>
-<span id="annotated-cell-6-18"><a href="#annotated-cell-6-18" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> np.array(mask)</span>
-<span id="annotated-cell-6-19"><a href="#annotated-cell-6-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mask</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-6-12"><a href="#annotated-cell-6-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get part of the mesh within the mesh's bounding surface.</span></span>
+<span id="annotated-cell-6-13"><a href="#annotated-cell-6-13" aria-hidden="true" tabindex="-1"></a>    selection <span class="op">=</span> ugrid.select_enclosed_points(</span>
+<span id="annotated-cell-6-14"><a href="#annotated-cell-6-14" aria-hidden="true" tabindex="-1"></a>        mesh.extract_surface(),</span>
+<span id="annotated-cell-6-15"><a href="#annotated-cell-6-15" aria-hidden="true" tabindex="-1"></a>        tolerance<span class="op">=</span><span class="fl">0.0</span>,</span>
+<span id="annotated-cell-6-16"><a href="#annotated-cell-6-16" aria-hidden="true" tabindex="-1"></a>        check_surface<span class="op">=</span><span class="va">False</span>,</span>
+<span id="annotated-cell-6-17"><a href="#annotated-cell-6-17" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="annotated-cell-6-18"><a href="#annotated-cell-6-18" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> selection[<span class="st">'SelectedPoints'</span>].view(<span class="bu">bool</span>)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-6-19" class="code-annotation-target"><a href="#annotated-cell-6-19" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> mask.reshape(x.shape, order<span class="op">=</span><span class="st">'F'</span>)</span>
+<span id="annotated-cell-6-20"><a href="#annotated-cell-6-20" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> np.array(mask)</span>
+<span id="annotated-cell-6-21"><a href="#annotated-cell-6-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mask</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-6" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-6" data-code-lines="17" data-code-annotation="1">Note that the here <code>x</code> is coming from <code>meshgrid</code>, but it was used to compute the <em>cell centers</em> so there is no need to subtract 1, unlike the <code>meshgrid</code> attribute of the <code>vox</code> mesh which defines the <em>cell corners</em>.</span>
+<span data-code-cell="annotated-cell-6" data-code-lines="19" data-code-annotation="1">Note that the here <code>x</code> is coming from <code>meshgrid</code>, but it was used to compute the <em>cell centers</em> so there is no need to subtract 1, unlike the <code>meshgrid</code> attribute of the <code>vox</code> mesh returned by <code>voxelize_volume</code> which defines the <em>cell corners</em>.</span>
 </dd>
 </dl>
-<p>This function is clearly less “out of the box” than just using <code>voxelize_volume</code>, but I though it might be faster because it uses a different method for finding whether a point is inside the mesh or not. Specifically it uses the <code>select_enclosed_points()</code> method of the <code>UnstructuredGrid</code> class. I was hoping that this might be faster since it searches for points without also creating a voxelized mesh object. It have not done a rigorous time comparison but it takes approximately the same amount of time. I think also that it might be useful to have the voxelized mesh objects handy for future use too.</p>
-<p>On the other hand, it seems that the two methods produce a different result. The <code>voxelize_volume()</code> function seems to produce an image with more</p>
-
-
+<p>This function is clearly less convenient than just using <code>voxelize_volume</code>, but I thought it might be faster because it uses a different method for finding whether a point is inside the mesh or not. Specifically it uses the <code>select_enclosed_points()</code> method of the <code>UnstructuredGrid</code> class. I was hoping that this might be faster since it searches for points without also creating a voxelized mesh object. I did an informal comparison of both methods and found them to require about equal times, so I will probably use the <code>voxelize_volume()</code> function in future since it’s easier to remember, and it is probably helpful to have the mesh object handy for future use.</p>
 </section>
+</section>
+<section id="comparing-the-outputs-of-the-two-methods" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-the-outputs-of-the-two-methods">Comparing the Outputs of the Two Methods</h2>
+<p>I did notice however, that the two methods produce a different result. The <code>voxelize_volume()</code> function seems to produce an image with more solid voxels, resulting in a structure that is a over packed:</p>
+<p><img src="method_comparison.png" class="img-fluid"></p>
+<p>I am guessing that each of these methods uses a different behavior for identifying voxels laying on the boundary, perhaps it’s the difference between using <code>&lt;</code> instead of a <code>&lt;=</code>.</p>
+<p>In any event, the <code>select_enclosed_points</code> method seems preferable since the particles are much better defined. It is possible to dilate the particles to get something similar to the <code>voxelize_volume</code> result, while eroding the particles from <code>voxelize_volume</code> will not give the clear separation of the <code>select_enclosed_points</code> method.</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>Despite the much cleaner implementation of the <code>voxel_volume</code> method, I think I will be using the <code>select_enclosed_points</code> method since it gives better results. The speed (or lack thereof) of the two methods is about equal, so there is nothing to chose there. The only downside of the <code>select_enclosed_points</code> method is that it does not create a rectilinear mesh object, which may or may not be useful for some uses. Perhaps the <code>stl_to_array</code> function should be added to the <code>io</code> module of <a href="https://porespy.org">PoreSpy</a>, then the ugliness of the implementation will be hidden from sight.</p>
+
+
 </section>
 </section>
 
@@ -409,7 +428,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/pmeal\.com");
+      var filterRegex = new RegExp("https:\/\/www\.pmeal\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
