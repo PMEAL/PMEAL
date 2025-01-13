@@ -6,6 +6,7 @@ execute:
 
 website:
   title: ""
+  site-url: https://www.pmeal.com
   navbar:
     logo: _static/logo.png  
     left:

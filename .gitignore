@@ -12,3 +12,4 @@ jupyter_execute
 .Rproj.user
 .Rhistory
 *.Rproj
+.DS_Store
