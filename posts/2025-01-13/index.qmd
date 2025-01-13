@@ -1,9 +1,9 @@
 ---
-title: "Tips and Tricks"
+title: "Tips and Tricks: Converting STL files to voxel images"
 author: "Jeff Gostick"
 date: "January 13, 2025"
 categories: [news, tips]
-image: cover.png
+image: plotted_mesh.png
 ---
 
 # Tips and Tricks: Converting STL files to voxel images
