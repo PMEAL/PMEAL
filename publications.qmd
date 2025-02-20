@@ -53,6 +53,25 @@ Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-45
 </tbody>
 </table>
 
+## 2025
+<table width="100%">
+
+<tbody>
+
+<tr>
+<td>105</td>
+<td>
+
+Yeetsorn R, Chitvuttichot S, Tuantranont A, Treeratanaphitak T, Gostick JT. Development of 3D-printed electrodes using polyacrylonitrile/ graphene composites for application in polysulfide bromide flow battery. Chemical Engineering and Processing - Process Intensification.  211(5), 110233 (2025)
+
+Links: [Publisher Site](https://doi.org/10.1016/j.cep.2025.110233)
+
+</td>
+</tr> 
+
+</tbody>
+</table>
+
 ## 2024
 <table width="100%">
 
