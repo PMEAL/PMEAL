@@ -30,23 +30,13 @@ None at the moment
 <tbody>
 
 <tr>
-<td>02</td>
+<td>01</td>
 <td>
 
 Maier L, Pauly L, Gostick JT, Gresser GT, Nieken U. Spontaneous imbibition in thin anisotropic fibrous media: Experiments and numerical modeling. Textile Research Journal
 
 Links: [Publisher Site ](https://doi.org/10.1177/00405175241268794)
 
-</td>
-</tr> 
-
-<tr>
-<td>01</td>
-<td>
-
-Yu H, Pritzker MD, Gostick JT. Improving Performance of Hybrid Zn-Ce Redox Flow Battery by Controlling Ion Crossover and Use of Mixed Acid Positive Electrolyte. Journal of Applied Electrochemistry.
-
-Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-4535713) | [Publisher Site (Open Access)](https://doi.org/10.1007/s10800-024-02193-x)
 </td>
 </tr> 
 
@@ -57,6 +47,26 @@ Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-45
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>107</td>
+<td>
+
+Burton N, Abdala A, Ghanbari S, Grishkewich N, Chekini M, Zarshenas K, Gostick JT, Pope M. Mass Transport Limitations in High-Performance Water-Vapor Selective Membranes: A Multiphysics Simulation Approach. Chemical Engineering Journal. 508(3), 160974 (2025)
+
+Links: [Publisher Site (Open Access)](https://doi.org/10.1016/j.cej.2025.160974)
+</td>
+</tr> 
+
+<tr>
+<td>106</td>
+<td>
+
+Yu H, Pritzker MD, Gostick JT. Improving Performance of Hybrid Zn-Ce Redox Flow Battery by Controlling Ion Crossover and Use of Mixed Acid Positive Electrolyte. Journal of Applied Electrochemistry. 55(3), 565–582 (2025) 
+
+Links: [Preprint on ResearchSquare](https://www.researchsquare.com/article/rs-4535713) | [Publisher Site (Open Access)](https://doi.org/10.1007/s10800-024-02193-x)
+</td>
+</tr> 
 
 <tr>
 <td>105</td>
