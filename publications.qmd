@@ -18,7 +18,7 @@
 <table width="100%">
 <tbody>
 
-None at the moment
+McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. 
 
 </tbody>
 </table>
@@ -33,9 +33,7 @@ None at the moment
 <td>01</td>
 <td>
 
-Maier L, Pauly L, Gostick JT, Gresser GT, Nieken U. Spontaneous imbibition in thin anisotropic fibrous media: Experiments and numerical modeling. Textile Research Journal
-
-Links: [Publisher Site ](https://doi.org/10.1177/00405175241268794)
+None at the moment
 
 </td>
 </tr> 
@@ -47,6 +45,18 @@ Links: [Publisher Site ](https://doi.org/10.1177/00405175241268794)
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>108</td>
+<td>
+
+Maier L, Pauly L, Gostick JT, Gresser GT, Nieken U. Spontaneous imbibition in thin anisotropic fibrous media: Experiments and numerical modeling. Textile Research Journal. 95 (9-10), 937-955 (2025)
+
+Links: [Publisher Site](https://doi.org/10.1177/00405175241268794)
+
+</td>
+</tr> 
+
 
 <tr>
 <td>107</td>
