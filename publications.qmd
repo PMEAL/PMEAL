@@ -1,4 +1,4 @@
-Å# Publications
+# Publications
 
 <style>
     tr:nth-child(even) {
