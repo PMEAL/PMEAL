@@ -1,4 +1,4 @@
-# Publications
+Å# Publications
 
 <style>
     tr:nth-child(even) {
@@ -15,14 +15,21 @@
 
 ## Pre-Prints
 
+
+
 <table width="100%">
 <tbody>
 
-McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. 
+<tr>
+<td>01</td>
+<td>
+Agravante GJ, Gostick JT^. Simulating Transient Pore-Scale Behaviour of Platinum Degradation in PEM Fuel Cells Using Pore Network Modeling. 
+Link: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
+</td>
+</tr> 
 
 </tbody>
 </table>
-
 
 ## In Press
 
@@ -32,9 +39,7 @@ McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Gui
 <tr>
 <td>01</td>
 <td>
-
-None at the moment
-
+McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. 
 </td>
 </tr> 
 
