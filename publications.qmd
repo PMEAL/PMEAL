@@ -37,9 +37,16 @@ Link: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
 <tbody>
 
 <tr>
+<td>02</td>
+<td>
+Yu H, Pritzker M, Gostick JT^. Two-Dimensional Transient Model of a Zn-Ce Redox Flow Battery Incorporating Ion Crossover. Electrochimica Acta.
+</td>
+</tr> 
+
+<tr>
 <td>01</td>
 <td>
-McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. 
+McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal.
 </td>
 </tr> 
 
