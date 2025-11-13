@@ -37,6 +37,13 @@ Link: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
 <tbody>
 
 <tr>
+<td>02</td>
+<td>
+Deng C, Li X, Xie F, Modestino MA, Bayazit MK, Chakrabarti BK, Gostick JT, Wu A, Chen R, Weng  GM. An electrochemical reactor that enables continuous and uniform flow of high-viscosity slurry for semi-solid flow batteries. Chemical Engineering Journal. 
+</td>
+</tr> 
+
+<tr>
 <td>01</td>
 <td>
 McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal.
