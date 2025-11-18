@@ -31,17 +31,10 @@ None at the moment
 <tbody>
 
 <tr>
-<td>03</td>
+<td>02</td>
 <td>
 Agravante GJ, Gostick JT^. Simulating Transient Pore-Scale Behaviour of Platinum Degradation in PEM Fuel Cells Using Pore Network Modeling. Journal of Power Sources.
 Link: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
-</td>
-</tr> 
-
-<tr>
-<td>02</td>
-<td>
-Deng C, Li X, Xie F, Modestino MA, Bayazit MK, Chakrabarti BK, Gostick JT, Wu A, Chen R, Weng  GM. An electrochemical reactor that enables continuous and uniform flow of high-viscosity slurry for semi-solid flow batteries. Chemical Engineering Journal. 
 </td>
 </tr> 
 
@@ -60,6 +53,14 @@ McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Gui
 
 <tbody>
 
+<tr>
+<td>110</td>
+<td>
+Deng C, Li X, Xie F, Modestino MA, Bayazit MK, Chakrabarti BK, Gostick JT, Wu A, Chen R, Weng  GM. An electrochemical reactor that enables continuous and uniform flow of high-viscosity slurry for semi-solid flow batteries. Chemical Engineering Journal. 525(23), 170707 (2025) 
+
+Links: [Publisher Site](https://doi.org/10.1016/j.cej.2025.170707)
+</td>
+</tr> 
 
 <tr>
 <td>109</td>
