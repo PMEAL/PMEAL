@@ -1,0 +1,8 @@
+---
+title: "Fun with Github actions and bumping version numbers"
+author: "Jeff Gostick"
+date: "November 22, 2025"
+categories: [news, tips]
+---
+
+Someone recently asked me if OpenPNM was still being maintained, and I was pretty shocked to see it had been months since we/I had dealt with any of the basic maintenance issues which were lingering. For instance, several of our dependencies had major version changes which had broken some things in OpenPNM. This email message has spurred me into action, and I have been busy updating all the backend stuff. My starting point has been the "bump-version" process. We have automated "actions" setup on Github which increment the package version number on each merged PR. This was a life saver when we first figured out how to do it. Before this we regularly forgot to update the version number on a release, or used the wrong version number (i.e. sometimes with a 'V' and sometimes not). Anyway, I just spent a few hours learning the `bump-my-version` package, and I did it by creating a sandbox repo and messing with settings until it worked. The repo can be [found here](https://github.com/jgostick/bump-my-version-sandbox), so you can grab the work flow files and settings if you're interested. I also included a lengthy README file which outlines all the details of the process. I'm sure I'll find this a useful reference in a few years when things are broken again and I have to figure out what I did and why.  But until then it's working great for the OpenPNM repo.  I'll be adding it to PoreSpy next!
