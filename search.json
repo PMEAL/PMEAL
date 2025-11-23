@@ -196,25 +196,18 @@
     "text": "During this past 3 years we’ve also migrated all of our continuous integration testing and release process to Github Actions. One of the great side effects of this that we can now generate very detailed changelogs from the commit messages for each merge onto the dev branch. The full change can be viewed here."
   },
   {
-    "objectID": "posts/2022-12-24/index.html",
-    "href": "posts/2022-12-24/index.html",
-    "title": "Congratulations to Niloo for successfully defending her PhD!",
+    "objectID": "posts/2025-11-22/index.html",
+    "href": "posts/2025-11-22/index.html",
+    "title": "Fun with Github actions and bumping version numbers",
     "section": "",
-    "text": "Congratulations to Niloo for successfully defending her PhD!\nNiloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th. It was a slam-dunk, with 3 first-author papers, plus authorship on another. Not to mention many contributions to the OpenPNM and PoreSpy code bases. Thanks for all your hard work Niloo!"
+    "text": "Someone recently asked me if OpenPNM was still being maintained, and I was pretty shocked to see it had been months since we/I had dealt with any of the basic maintenance issues which were lingering. For instance, several of our dependencies had major version changes which had broken some things in OpenPNM. This email message has spurred me into action, and I have been busy updating all the backend stuff. My starting point has been the “bump-version” process. We have automated “actions” setup on Github which increment the package version number on each merged PR. This was a life saver when we first figured out how to do it. Before this we regularly forgot to update the version number on a release, or used the wrong version number (i.e. sometimes with a ‘V’ and sometimes not). Anyway, I just spent a few hours learning the bump-my-version package, and I did it by creating a sandbox repo and messing with settings until it worked. The repo can be found here, so you can grab the work flow files and settings if you’re interested. I also included a lengthy README file which outlines all the details of the process. I’m sure I’ll find this a useful reference in a few years when things are broken again and I have to figure out what I did and why. But until then it’s working great for the OpenPNM repo. I’ll be adding it to PoreSpy next!"
   },
   {
-    "objectID": "posts/2021-12-07/index.html",
-    "href": "posts/2021-12-07/index.html",
-    "title": "Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor",
+    "objectID": "posts/2021-07-04/index.html",
+    "href": "posts/2021-07-04/index.html",
+    "title": "PMEAL Blog and Website now hosted on Github Pages",
     "section": "",
-    "text": "Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor\nThe Department of Chemical Engineering recently received a generous donation from a former PhD student, Dr. Mohamed Azzam. Dr. Azzam undertook his PhD studies under Prof. Francis Dullien in the early 1970’s. His work focused on hydraulic flow through complex conduits (see [1], [2], [3], [4], [5]), and contributed to the development of the pore network modeling approach pioneered by Prof. Dullien and his team later that decade. After graduation Dr. Azzam founded a successful company and had recently decided to honor Prof. Dullien and his former department with a generous gift. The Azzam-Dullien Endowed Professorship was created, and Prof. Jeff Gostick was named as the inaugural recipient for a term of 4 years. This endowment is earmarked to fund graduate students in the area of transport in porous media, which will ensure the continued legacy of porous media research at the University of Waterloo."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "The Porous Materials Engineering & Analysis Lab (PMEAL) focuses on the study of atypical porous media, such as engineered materials including electrodes, membranes, filters, papers, and catalyst supports. These materials are a challenge to study using the classic tools and theories developed for the traditional geoscience applications such as rock, sand, and soil.\nResearch in our lab focuses on three main aspects: measuring transport and structural properties by developing novel characterization tools, modeling transport processes and device performance using pore-scale simulations, and making customized materials targeted for specific applications based on the findings and results of the other two steps. We are also interested in visualization of porous materials using x-ray tomography, and extracting information via quantitative analysis on the resultant volumetric images. This aspect of our work actually bridges all three of the main themes.\nPMEAL is run by Prof. Jeff Gostick and is located at the University of Waterloo, in the Department of Chemical Engineering. For more information on the type of projects being pursued by the PMEAL team, take a look at the Publications page, or check out Prof. Gostick’s Google Scholar page."
+    "text": "PMEAL Blog and Website now hosted on Github Pages\nWe used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress. A few months we updated the PoreSpy website/landing page to be the same as the documentation site and moved it to Github instead of “Read The Docs”. Having all the code and docs in the same place was very handy, so we did the same thing to the OpenPNM website. Now that we are only hosting one website on the Wordpress instance, it makes sense to move PMEAL over to Github as well. The new site is not quite as fancy looking due limitations of the static build of Github Pages, but seems to looking pretty good so far. Over the next few weeks we’ll be improving things."
   },
   {
     "objectID": "posts/2022-06-03/index.html",
@@ -224,11 +217,25 @@
     "text": "PMEAL Members Represent Strong at CRSC 2022\nThe 4th annual Canadian Research Software Conference was held earlier this week. Several members of the PMEAL group were present, and for the 4th straight year we won a top poster award! Congratulations to Niloo for her hard work and enthralling the audience with her work on the use of AI to predict diffusive conductance for use in extracted pore networks. This poster was based on her recently published paper Computers and Geosciences. Also, a nod to Amin who presented a 20 minute short talk on the use of Julia to speed up numerical computations. This talk led to many follow-up conversations during the coffee breaks, and was really very convincing. Maybe OpenPNM V4 will be in Julia?"
   },
   {
-    "objectID": "posts/2021-07-04/index.html",
-    "href": "posts/2021-07-04/index.html",
-    "title": "PMEAL Blog and Website now hosted on Github Pages",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
     "section": "",
-    "text": "PMEAL Blog and Website now hosted on Github Pages\nWe used to host all our websites, openpnm.org, porespy.org and pmeal.com, on an Amazon cloud server using Wordpress. A few months we updated the PoreSpy website/landing page to be the same as the documentation site and moved it to Github instead of “Read The Docs”. Having all the code and docs in the same place was very handy, so we did the same thing to the OpenPNM website. Now that we are only hosting one website on the Wordpress instance, it makes sense to move PMEAL over to Github as well. The new site is not quite as fancy looking due limitations of the static build of Github Pages, but seems to looking pretty good so far. Over the next few weeks we’ll be improving things."
+    "text": "The Porous Materials Engineering & Analysis Lab (PMEAL) focuses on the study of atypical porous media, such as engineered materials including electrodes, membranes, filters, papers, and catalyst supports. These materials are a challenge to study using the classic tools and theories developed for the traditional geoscience applications such as rock, sand, and soil.\nResearch in our lab focuses on three main aspects: measuring transport and structural properties by developing novel characterization tools, modeling transport processes and device performance using pore-scale simulations, and making customized materials targeted for specific applications based on the findings and results of the other two steps. We are also interested in visualization of porous materials using x-ray tomography, and extracting information via quantitative analysis on the resultant volumetric images. This aspect of our work actually bridges all three of the main themes.\nPMEAL is run by Prof. Jeff Gostick and is located at the University of Waterloo, in the Department of Chemical Engineering. For more information on the type of projects being pursued by the PMEAL team, take a look at the Publications page, or check out Prof. Gostick’s Google Scholar page."
+  },
+  {
+    "objectID": "posts/2021-12-07/index.html",
+    "href": "posts/2021-12-07/index.html",
+    "title": "Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor",
+    "section": "",
+    "text": "Prof Gostick Named Inaugural Azzam-Dullien Endowed Professor\nThe Department of Chemical Engineering recently received a generous donation from a former PhD student, Dr. Mohamed Azzam. Dr. Azzam undertook his PhD studies under Prof. Francis Dullien in the early 1970’s. His work focused on hydraulic flow through complex conduits (see [1], [2], [3], [4], [5]), and contributed to the development of the pore network modeling approach pioneered by Prof. Dullien and his team later that decade. After graduation Dr. Azzam founded a successful company and had recently decided to honor Prof. Dullien and his former department with a generous gift. The Azzam-Dullien Endowed Professorship was created, and Prof. Jeff Gostick was named as the inaugural recipient for a term of 4 years. This endowment is earmarked to fund graduate students in the area of transport in porous media, which will ensure the continued legacy of porous media research at the University of Waterloo."
+  },
+  {
+    "objectID": "posts/2022-12-24/index.html",
+    "href": "posts/2022-12-24/index.html",
+    "title": "Congratulations to Niloo for successfully defending her PhD!",
+    "section": "",
+    "text": "Congratulations to Niloo for successfully defending her PhD!\nNiloofar Misaghian joined the PMEAL group in the fall of 2018, and after 4 years of intense learning and research she successfully defended her thesis on December 9th. It was a slam-dunk, with 3 first-author papers, plus authorship on another. Not to mention many contributions to the OpenPNM and PoreSpy code bases. Thanks for all your hard work Niloo!"
   },
   {
     "objectID": "posts/2021-12-14/index.html",
@@ -319,7 +326,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Tips and Tricks: Converting STL files to voxel images\n\n\n\nnews\n\ntips\n\n\n\n\n\n\n\n\n\nJan 13, 2025\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing QBIP: a new image-based fluid invasion algorithm including gravity and built for speed\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\n4-Phase Pore Network Model of a Fuel Cell Catalyst Layer\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nCongratulations to Niloo for successfully defending her PhD!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 24, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s New in OpenPNM V3\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 10, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nPMEAL Members Represent Strong at CRSC 2022\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 3, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nAdding Gravity to Image Based Drainage Simulations\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 9, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nProf Gostick presents new image-based invasion algorithm at AGU21\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 14, 2021\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nProf Gostick Named Inaugural Azzam-Dullien Endowed Professor\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 7, 2021\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nPMEAL Blog and Website now hosted on Github Pages\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 4, 2021\n\n\nJeff Gostick\n\n\n\n\n\nNo matching items"
+    "text": "Fun with Github actions and bumping version numbers\n\n\n\nnews\n\ntips\n\n\n\n\n\n\n\n\n\nNov 22, 2025\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nTips and Tricks: Converting STL files to voxel images\n\n\n\nnews\n\ntips\n\n\n\n\n\n\n\n\n\nJan 13, 2025\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing QBIP: a new image-based fluid invasion algorithm including gravity and built for speed\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 5, 2024\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\n4-Phase Pore Network Model of a Fuel Cell Catalyst Layer\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nCongratulations to Niloo for successfully defending her PhD!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 24, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s New in OpenPNM V3\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 10, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nPMEAL Members Represent Strong at CRSC 2022\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 3, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nAdding Gravity to Image Based Drainage Simulations\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 9, 2022\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nProf Gostick presents new image-based invasion algorithm at AGU21\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 14, 2021\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nProf Gostick Named Inaugural Azzam-Dullien Endowed Professor\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 7, 2021\n\n\nJeff Gostick\n\n\n\n\n\n\n\n\n\n\n\n\nPMEAL Blog and Website now hosted on Github Pages\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 4, 2021\n\n\nJeff Gostick\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
