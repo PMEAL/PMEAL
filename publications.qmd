@@ -10,6 +10,9 @@
     th, td {
       padding: 15px;
     }
+    table {
+      border-spacing: 15px;
+    }
 </style>
 
 <a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="/_static/images/scholar_logo.png" alt="" width="30" height="30" /> Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
@@ -28,6 +31,7 @@ None at the moment
 
 ## In Press
 
+```{=html}
 <table width="100%">
 <tbody>
 
@@ -40,6 +44,7 @@ McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Gui
 
 </tbody>
 </table>
+```
 
 ## 2026
 
