@@ -7,6 +7,9 @@
     tr:nth-child(odd) {
         background-color: #E5E4E2;
     }
+    th, td {
+      padding: 15px;
+    }
 </style>
 
 <a href="https://scholar.google.ca/citations?user=ikQG1IkAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer"><img src="/_static/images/scholar_logo.png" alt="" width="30" height="30" /> Visit the Google Scholar site for Prof Gostick and the PMEAL Team</a>
@@ -14,8 +17,6 @@
 <hr>
 
 ## Pre-Prints
-
-
 
 <table width="100%">
 <tbody>
@@ -31,14 +32,6 @@ None at the moment
 <tbody>
 
 <tr>
-<td>02</td>
-<td>
-Agravante GJ, Gostick JT^. Simulating Transient Pore-Scale Behaviour of Platinum Degradation in PEM Fuel Cells Using Pore Network Modeling. Journal of Power Sources.
-Link: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
-</td>
-</tr> 
-
-<tr>
 <td>01</td>
 <td>
 McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal.
@@ -47,6 +40,23 @@ McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Gui
 
 </tbody>
 </table>
+
+## 2026
+
+<table width="100%">
+<tbody>
+
+<tr>
+<td>111</td>
+<td>
+Agravante GJ, Gostick JT^. Simulating Transient Pore-Scale Behaviour of Platinum Degradation in PEM Fuel Cells Using Pore Network Modeling. Journal of Power Sources.
+Link: [Publisher Site](https://doi.org/10.1016/j.jpowsour.2025.238878) | [Preprint on ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-w8v86)
+</td>
+</tr> 
+
+</tbody>
+</table>
+
 
 ## 2025
 <table width="100%">
