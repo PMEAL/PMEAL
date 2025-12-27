@@ -26,7 +26,15 @@
 <table width="100%">
 <tbody>
 
-None at the moment
+<tr>
+<td>01</td>
+<td>
+
+Agravante GJ, Gostick JT^. Physics-Based Modeling of Platinum Catalyst Dissolution and Oxidation in PEM Fuel Cells: A Focused Review
+
+Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
+</td>
+</tr> 
 
 </tbody>
 </table>
@@ -36,12 +44,7 @@ None at the moment
 <table width="100%">
 <tbody>
 
-<tr>
-<td>01</td>
-<td>
-McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal.
-</td>
-</tr> 
+None at the moment
 
 </tbody>
 </table>
@@ -52,7 +55,7 @@ McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Gui
 <tbody>
 
 <tr>
-<td>111</td>
+<td>112</td>
 <td>
 Agravante GJ, Gostick JT^. Simulating Transient Pore-Scale Behaviour of Platinum Degradation in PEM Fuel Cells Using Pore Network Modeling. Journal of Power Sources. 663(1), 238878 (2026).
 
@@ -67,6 +70,13 @@ Link: [Publisher Site](https://doi.org/10.1016/j.jpowsour.2025.238878) | [Prepri
 <table width="100%">
 
 <tbody>
+
+<tr>
+<td>111</td>
+<td>
+McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal. 2(4), IPJ011225-7 (2025)
+</td>
+</tr> 
 
 <tr>
 <td>110</td>
