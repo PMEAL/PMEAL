@@ -44,7 +44,16 @@ Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
 <table width="100%">
 <tbody>
 
-None at the moment
+
+<tr>
+<td>01</td>
+<td>
+
+McKague M, Mehrnia M, Sadeghi MA, Gostick JT^. A Fully Differentiable Pore Network for Digital Reconstruction of Porous Media. Digital Discovery.
+
+Links: 
+</td>
+</tr> 
 
 </tbody>
 </table>
