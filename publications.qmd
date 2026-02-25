@@ -94,6 +94,8 @@ Link: [Publisher Site](https://doi.org/10.1016/j.jpowsour.2025.238878) | [Prepri
 <td>111</td>
 <td>
 McKague M*, Fathiannasab H**, Sadeghi MA**, Gostick JT^. MAGNET: Medial Axis Guided Network Extraction Tool. Interpore Journal. 2(4), IPJ011225-7 (2025)
+
+Link: [Publisher Site](https://doi.org/10.69631/g47x8w91)
 </td>
 </tr> 
 
