@@ -26,25 +26,7 @@
 <table width="100%">
 <tbody>
 
-<tr>
-<td>02</td>
-<td>
-
-Abdollahi S, Gostick JT^. High-performance free-standing electrospun electrodes based on sustainable materials for redox flow batteries
-
-Links: [SSRN](http://dx.doi.org/10.2139/ssrn.6216693)
-</td>
-</tr> 
-
-<tr>
-<td>01</td>
-<td>
-
-Agravante GJ, Gostick JT^. Physics-Based Modeling of Platinum Catalyst Dissolution and Oxidation in PEM Fuel Cells: A Focused Review
-
-Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
-</td>
-</tr> 
+None at the moment
 
 </tbody>
 </table>
@@ -54,14 +36,23 @@ Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
 <table width="100%">
 <tbody>
 
+<tr>
+<td>02</td>
+<td>
+
+Abdollahi S, Gostick JT^. High-performance free-standing electrospun electrodes based on sustainable materials for redox flow batteries. Materials Today Sustainability.
+
+Links: [SSRN](http://dx.doi.org/10.2139/ssrn.6216693)
+</td>
+</tr> 
 
 <tr>
 <td>01</td>
 <td>
 
-McKague M, Mehrnia M, Sadeghi MA, Gostick JT^. A Fully Differentiable Pore Network for Digital Reconstruction of Porous Media. Digital Discovery.
+Agravante GJ, Gostick JT^. Physics-Based Modeling of Platinum Catalyst Dissolution and Oxidation in PEM Fuel Cells: A Focused Review. Journal of Power Sources.
 
-Links: [Publisher Site with Open Access](https://doi.org/10.1039/D5DD00455A)
+Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
 </td>
 </tr> 
 
@@ -72,6 +63,16 @@ Links: [Publisher Site with Open Access](https://doi.org/10.1039/D5DD00455A)
 
 <table width="100%">
 <tbody>
+
+<tr>
+<td>113</td>
+<td>
+
+McKague M, Mehrnia M, Sadeghi MA, Gostick JT^. A Fully Differentiable Pore Network for Digital Reconstruction of Porous Media. Digital Discovery. 5(3), 1280-1295 (2026)
+
+Links: [Publisher Site with Open Access](https://doi.org/10.1039/D5DD00455A)
+</td>
+</tr> 
 
 <tr>
 <td>112</td>
