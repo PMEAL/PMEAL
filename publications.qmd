@@ -50,7 +50,7 @@ Links: [SSRN](http://dx.doi.org/10.2139/ssrn.6216693)
 <td>01</td>
 <td>
 
-Agravante GJ, Gostick JT^. Physics-Based Modeling of Platinum Catalyst Dissolution and Oxidation in PEM Fuel Cells: A Focused Review. Journal of Power Sources.
+Agravante GJ, Gostick JT^. Physics-Based Modeling of Platinum Catalyst Dissolution and Oxidation in PEM Fuel Cells: A Focused Review. Journal of the Electrochemical Society.
 
 Links: [ChemArxiv](https://doi.org/10.26434/chemrxiv-2025-pv39l)
 </td>
