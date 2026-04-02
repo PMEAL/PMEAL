@@ -42,7 +42,7 @@ None at the moment
 
 Abdollahi S, Gostick JT^. High-performance free-standing electrospun electrodes based on sustainable materials for redox flow batteries. Materials Today Sustainability.
 
-Links: [SSRN](http://dx.doi.org/10.2139/ssrn.6216693)
+Links: [Publisher Site](https://doi.org/10.1016/j.mtsust.2026.101357)
 </td>
 </tr> 
 
