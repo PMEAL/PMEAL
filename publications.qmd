@@ -32,7 +32,7 @@
 
 Agravante GJ, Gostick JT^. Model-informed strategies for mitigating platinum loss in polymer electrolyte membrane fuel cells.
 
-Links: [Preprint Archive](https://doi.org/10.26434/chemrxiv.15001758/v1)
+Links: [ChemrXive](https://doi.org/10.26434/chemrxiv.15001758/v1)
 </td>
 </tr> 
 
