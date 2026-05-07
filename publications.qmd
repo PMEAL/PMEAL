@@ -27,12 +27,24 @@
 <tbody>
 
 <tr>
+<td>2</td>
+<td>
+
+Mansourieh A, Dauphinais S, Mehrnia M, Gostick JT, Ioannidis MA. Evaluating Pore Network Models for Predicting Longitudinal Dispersion in Porous Media.
+
+Links: [SSRN](http://dx.doi.org/10.2139/ssrn.6574519)
+
+</td>
+</tr> 
+
+<tr>
 <td>1</td>
 <td>
 
 Agravante GJ, Gostick JT^. Model-informed strategies for mitigating platinum loss in polymer electrolyte membrane fuel cells.
 
-Links: [ChemrXive](https://doi.org/10.26434/chemrxiv.15001758/v1)
+Links: [ChemrXiv](https://doi.org/10.26434/chemrxiv.15001758/v1)
+
 </td>
 </tr> 
 
