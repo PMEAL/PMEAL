@@ -27,6 +27,18 @@
 <tbody>
 
 <tr>
+<td>3</td>
+<td>
+
+Burton ND, Murzello R, Xu L, Grishkewich N, Gostick JT, Pope M. Beyond Ideal Membranes: Multiphysics Modelling of Vacuum-Driven Graphene Oxide Dehumidification Systems.
+
+Links: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6907625)
+
+</td>
+</tr>
+
+
+<tr>
 <td>2</td>
 <td>
 
